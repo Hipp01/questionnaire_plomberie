@@ -1,0 +1,80 @@
+.onboarding {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 7%;
+  height: 100vh;
+  text-align: center;
+  background-color: var(--background-dark);
+  color: var(--text-white);
+}
+
+.onboarding-title {
+  font-size: 54px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.onboarding-decor {
+  font-size: 1.5em;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background-color: var(--light-pink);
+  color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card:hover {
+  background-color: var(--primary-color);
+  color: var(--text-white);
+}
+
+.icon img {
+  transition: filter 0.3s ease;
+}
+
+.img-plomberie {
+  width: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.card:hover .icon img {
+  filter: brightness(0) invert(1);
+}
+
+.card-text {
+  background-color: var(--primary-color);
+  color: var(--text-white);
+  padding: 5px 5px;
+  font-size: 14px;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+.card:hover .card-text {
+  background-color: var(--text-white);
+  color: var(--primary-color);
+}
