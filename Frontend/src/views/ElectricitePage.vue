@@ -1,13 +1,11 @@
 <template>
-  <div id="app">
-    <router-view />
-  </div>
+  <div>Electricité</div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-  name: 'App',
+  name: 'ElectricitePage',
 });
 </script>

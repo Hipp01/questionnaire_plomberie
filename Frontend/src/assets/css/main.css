@@ -1,0 +1,44 @@
+:root {
+  --background-dark: #443d3c;
+  --primary-color: #ff445f;
+  --light-pink: #fff0f1;
+  --text-white: #ffffff;
+  --footer-background: #000000;
+  --font-main: 'Poppins', sans-serif;
+  --font-italic: 'Aller', sans-serif;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: var(--font-main);
+  color: var(--text-white);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-main);
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--footer-background);
+  color: var(--text-white);
+  text-align: center;
+  padding: 10px;
+}
+
+.footer-text {
+  font-family: var(--font-italic);
+  font-style: italic;
+}
+
+.red-point {
+  color: var(--primary-color);
+}
