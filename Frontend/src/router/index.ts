@@ -15,6 +15,7 @@ const routes = [
     path: '/',
     name: 'Onboarding',
     component: OnboardingPage,
+    meta: { hideHeader: true }, // Cacher le header pour cette page
   },
   {
     path: '/plomberie',
