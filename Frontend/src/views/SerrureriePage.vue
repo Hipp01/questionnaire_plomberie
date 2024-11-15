@@ -1,5 +1,5 @@
 <template>
-  <div></div>
+  <div>Serrurerie</div>
 </template>
 
 <script lang="ts">

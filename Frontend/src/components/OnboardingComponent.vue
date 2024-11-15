@@ -6,39 +6,39 @@
     </div>
 
     <div class="card-container">
-      <div class="card" @click="redirectToPage('plomberie')">
+      <div class="card" @click="redirectToPage('plomberie')" data-test="card-plomberie">
         <span class="icon">
           <img src="@/assets/icons/plomberie.png" alt="Plomberie" class="img-plomberie" />
         </span>
         <span class="card-text">Plomberie</span>
       </div>
-      <div class="card" @click="redirectToPage('electricite')">
+      <div class="card" @click="redirectToPage('electricite')" data-test="card-electricite">
         <span class="icon">
-          <img src="@/assets/icons/electricite.svg" alt="Électricité" />
+          <img src="@/assets/icons/electricite.svg" alt="Électricité" class="img-electricite" />
         </span>
         <span class="card-text">Électricité</span>
       </div>
-      <div class="card" @click="redirectToPage('chauffage')">
+      <div class="card" @click="redirectToPage('chauffage')" data-test="card-chauffage">
         <span class="icon">
-          <img src="@/assets/icons/chauffage.svg" alt="Chauffage" />
+          <img src="@/assets/icons/chauffage.svg" alt="Chauffage" class="img-chauffage" />
         </span>
         <span class="card-text">Chauffage</span>
       </div>
-      <div class="card" @click="redirectToPage('serrurerie')">
+      <div class="card" @click="redirectToPage('serrurerie')" data-test="card-serrurerie">
         <span class="icon">
-          <img src="@/assets/icons/serrurerie.svg" alt="Serrurerie" />
+          <img src="@/assets/icons/serrurerie.svg" alt="Serrurerie" class="img-serrurerie" />
         </span>
         <span class="card-text">Serrurerie</span>
       </div>
-      <div class="card" @click="redirectToPage('vitrerie')">
+      <div class="card" @click="redirectToPage('vitrerie')" data-test="card-vitrerie">
         <span class="icon">
-          <img src="@/assets/icons/vitrerie.svg" alt="Vitrerie" />
+          <img src="@/assets/icons/vitrerie.svg" alt="Vitrerie" class="img-vitrerie" />
         </span>
         <span class="card-text">Vitrerie</span>
       </div>
-      <div class="card" @click="redirectToPage('electromenager')">
+      <div class="card" @click="redirectToPage('electromenager')" data-test="card-electromenager">
         <span class="icon">
-          <img src="@/assets/icons/electromenager.svg" alt="Électroménager" />
+          <img src="@/assets/icons/electromenager.svg" alt="Électroménager" class="img-electromenager" />
         </span>
         <span class="card-text">Électroménager</span>
       </div>
@@ -53,7 +53,7 @@ import { useRouter } from 'vue-router';
 export default defineComponent({
   name: 'OnboardingComponent',
   setup() {
-    const router = useRouter(); // Utiliser le hook useRouter pour accéder au router
+    const router = useRouter();
 
     // Méthode pour rediriger vers une page dédiée
     const redirectToPage = (page: string) => {

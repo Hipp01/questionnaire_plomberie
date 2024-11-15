@@ -1,5 +1,5 @@
 <template>
-  <div></div>
+  <div>Plomberie</div>
 </template>
 
 <script lang="ts">

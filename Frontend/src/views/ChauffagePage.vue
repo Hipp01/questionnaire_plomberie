@@ -1,5 +1,5 @@
 <template>
-  <div></div>
+  <div>Chauffage</div>
 </template>
 
 <script lang="ts">

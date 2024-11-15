@@ -1,5 +1,5 @@
 <template>
-  <div></div>
+  <div>Electroménager</div>
 </template>
 
 <script lang="ts">
