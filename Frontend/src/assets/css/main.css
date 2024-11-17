@@ -1,8 +1,11 @@
 :root {
   --background-dark: #443d3c;
+  --background-light: #f8f8f8;
+  --background-grey: #f4f4f4;
   --primary-color: #ff445f;
   --light-pink: #fff0f1;
   --text-white: #ffffff;
+  --dark-red: #8F0C30;
   --footer-background: #000000;
   --font-main: 'Poppins', sans-serif;
   --font-italic: 'Aller', sans-serif;
@@ -15,6 +18,10 @@ body {
   color: var(--text-white);
 }
 
+.bg-light {
+  background-color: var(--background-light);
+}
+
 h1,
 h2,
 h3,
@@ -22,6 +29,7 @@ h4,
 h5,
 h6 {
   font-family: var(--font-main);
+  color: black;
 }
 
 .footer {
@@ -34,11 +42,44 @@ h6 {
   padding: 10px;
 }
 
-.footer-text {
+.footer-text, .header-text {
   font-family: var(--font-italic);
   font-style: italic;
 }
 
 .red-point {
   color: var(--primary-color);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.goweb-btn {
+  background-color: var(--background-dark);
+  padding: 10px 20px;
+  margin:0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--text-white);
+}
+
+.contact-button {
+  background-color: var(--primary-color);
+  color: var(--text-white);
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 0;
+  font-family: catamaran;
+}
+
+.contact-button:hover {
+  background-color: var(--dark-red);
 }
