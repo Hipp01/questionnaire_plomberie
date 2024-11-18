@@ -1,0 +1,240 @@
+[
+    {
+      "id": "1",
+      "text": "Quelle est la nature du problème ?",
+      "options": [
+        { "text": "Plomberie", "nextQuestionId": "2" },
+        { "text": "Electricite", "nextQuestionId": null },
+        { "text": "Chauffage", "nextQuestionId": null },
+        { "text": "Serrurerie", "nextQuestionId": null },
+        { "text": "Vitrerie", "nextQuestionId": null },
+        { "text": "Electromenager", "nextQuestionId": null }
+      ],
+      "type": "choice",
+      "previousQuestionId": null
+    },
+    {
+      "id": "2",
+      "text": "Où se situe votre problème ?",
+      "options": [
+        { "text": "WC", "nextQuestionId": "3" },
+        { "text": "Lavabo", "nextQuestionId": "4" },
+        { "text": "Douche", "nextQuestionId": "5" },
+        { "text": "Colonne générale d'immeuble", "nextQuestionId": null },
+        { "text": "Tuyauterie", "nextQuestionId": "6" },
+        { "text": "Chaudière", "nextQuestionId": "7" },
+        { "text": "Tuyau de la machine à laver / du lave-vaisselle", "nextQuestionId": null },
+        { "text": "Autre", "nextQuestionId": null }
+      ],
+      "type": "choice",
+      "previousQuestionId": "1"
+    },
+    {
+        "id": "3",
+        "text": "Quelle est la nature de votre problème ?",
+        "options": [
+          { "text": "Engorgement (WC bouchés)", "nextQuestionId": "8" },
+          { "text": "Fuite (recherche de fuite)", "nextQuestionId": "9" },
+          { "text": "Problème de fonctionnement (cuvette...)", "nextQuestionId": "10" },
+          { "text": "Changement de WC", "nextQuestionId": "11" }
+        ],
+        "type": "choice",
+        "previousQuestionId": "2"
+    },
+    {
+        "id": "4",
+        "text": "Quelle est la nature de votre problème ?",
+        "options": [
+          { "text": "Engorgement (lavabo / évier bouché)", "nextQuestionId": "12" },
+          { "text": "Fuite / robinetterie", "nextQuestionId": "13" },
+          { "text": "Autre", "nextQuestionId": "14" }
+        ],
+        "type": "choice",
+        "previousQuestionId": "2"
+    },
+    {
+        "id": "5",
+        "text": "Quelle est la nature de votre problème ?",
+        "options": [
+          { "text": "'Engorgement de douche (bouchée)", "nextQuestionId": null },
+          { "text": "Engorgement de baignoire (bouchée)", "nextQuestionId": null },
+          { "text": "Fuite de douche", "nextQuestionId": "15" },
+          { "text": "Fuite de baignoire", "nextQuestionId": "16" },
+          { "text": "Autre", "nextQuestionId": "17" }
+        ],
+        "type": "choice",
+        "previousQuestionId": "2"
+    },
+    {
+        "id": "6",
+        "text": "Vous avez une fuite au niveau ?",
+        "options": [
+          { "text": "D'un tuyau d’évacuation (tuyau PVC)", "nextQuestionId": null },
+          { "text": "De la vanne d’entrée", "nextQuestionId": null },
+          { "text": "D'un autre tuyau", "nextQuestionId": null },
+          { "text": "Je ne vois pas (recherche d'une fuite)", "nextQuestionId": "18" }
+        ],
+        "type": "choice",
+        "previousQuestionId": "2"
+    },
+    {
+        "id": "7",
+        "text": "Quel est votre besoin ?",
+        "options": [
+          { "text": "Réparation d'une panne", "nextQuestionId": "19" },
+          { "text": "Souscription d'un contrat d'entretien", "nextQuestionId": null },
+          { "text": "Réparation d'une fuite du ballon d'eau chaude", "nextQuestionId": null },
+          { "text": "Autre", "nextQuestionId": null },
+          { "text": "Installation", "nextQuestionId": "20" }
+        ],
+        "type": "choice",
+        "previousQuestionId": "2"
+    },
+    {
+        "id": "8",
+        "text": "Quel type de WC possédez-vous ?",
+        "options": [
+          { "text": "WC simple", "nextQuestionId": null },
+          { "text": "WC suspendu", "nextQuestionId": null },
+          { "text": "Autre", "nextQuestionId": null }
+        ],
+        "type": "choice",
+        "previousQuestionId": "3"
+    },
+    {
+      "id": "9",
+      "text": "Quel type de WC possédez-vous ?",
+      "options": [
+        { "text": "WC simple", "nextQuestionId": null },
+        { "text": "WC suspendu", "nextQuestionId": null },
+        { "text": "Autre", "nextQuestionId": null }
+      ],
+      "type": "choice",
+      "previousQuestionId": "3"
+    },
+    {
+      "id": "10",
+      "text": "Quel type de WC possédez-vous ?",
+      "options": [
+        { "text": "WC simple", "nextQuestionId": null },
+        { "text": "WC suspendu", "nextQuestionId": null },
+        { "text": "Autre", "nextQuestionId": null }
+      ],
+      "type": "choice",
+      "previousQuestionId": "3"
+    },
+    {
+      "id": "11",
+      "text": "Quel type de WC possédez-vous ?",
+      "options": [
+        { "text": "WC simple", "nextQuestionId": null },
+        { "text": "WC suspendu", "nextQuestionId": null },
+        { "text": "Autre", "nextQuestionId": null }
+      ],
+      "type": "choice",
+      "previousQuestionId": "3"
+    },
+    {
+        "id": "12",
+        "text": "Votre lavabo possède-t-il un sanispeed ?",
+        "options": [
+          { "text": "Oui", "nextQuestionId": null },
+          { "text": "Non", "nextQuestionId": null }
+        ],
+        "type": "choice",
+        "previousQuestionId": "4"
+    },
+    {
+        "id": "13",
+        "text": "D’où coule l’eau ?",
+        "options": [
+          { "text": "Autour du robinet", "nextQuestionId": null },
+          { "text": "Directement du robinet", "nextQuestionId": null },
+          { "text": "Au niveau du siphon", "nextQuestionId": null },
+          { "text": "Au niveau des flexibles", "nextQuestionId": null }
+        ],
+        "type": "choice",
+        "previousQuestionId": "4"
+    },
+    {
+        "id": "14",
+        "text": "Voulez-vous effectuer ?",
+        "options": [
+          { "text": "Changement de lavabo / évier", "nextQuestionId": null },
+          { "text": "Installation d'un robinet", "nextQuestionId": null },
+          { "text": "Autre", "nextQuestionId": null }
+        ],
+        "type": "choice",
+        "previousQuestionId": "4"
+    },
+    {
+        "id": "15",
+        "text": "D’où coule l’eau ?",
+        "options": [
+          { "text": "Du robinet", "nextQuestionId": null },
+          { "text": "Du tuyau d’évacuation (sous la douche)", "nextQuestionId": null },
+          { "text": "Inconnu", "nextQuestionId": null }
+        ],
+        "type": "choice",
+        "previousQuestionId": "5"
+    },
+    {
+        "id": "16",
+        "text": "D’où coule l’eau ?",
+        "options": [
+          { "text": "Du robinet", "nextQuestionId": null },
+          { "text": "Du tuyau d’évacuation", "nextQuestionId": null },
+          { "text": "Inconnu", "nextQuestionId": null }
+        ],
+        "type": "choice",
+        "previousQuestionId": "5"
+    },
+    {
+        "id": "17",
+        "text": "Voulez-vous effectuer ?",
+        "options": [
+          { "text": "'Installation de bac à douche", "nextQuestionId": null },
+          { "text": "Installation de baignoire", "nextQuestionId": null },
+          { "text": "Autre problème avec la douche", "nextQuestionId": null },
+          { "text": "Autre problème avec la baignoire", "nextQuestionId": null },
+          { "text": "Réfection des joints de la douche / baignoire", "nextQuestionId": null }
+        ],
+        "type": "choice",
+        "previousQuestionId": "5"
+    },
+    {
+        "id": "18",
+        "text": "Quel type de recherche de fuite souhaitez-vous ?",
+        "options": [
+          { "text": "Recherche de fuite simple", "nextQuestionId": null },
+          { "text": "Recherche de fuite encastrée", "nextQuestionId": null }
+        ],
+        "type": "choice",
+        "previousQuestionId": "6"
+    },
+    {
+        "id": "19",
+        "text": "Votre problème est lié ?",
+        "options": [
+          { "text": "Au chauffage", "nextQuestionId": null },
+          { "text": "À l'eau chaude", "nextQuestionId": null },
+          { "text": "Au chauffage et à l'eau chaude", "nextQuestionId": null }
+        ],
+        "type": "choice",
+        "previousQuestionId": "7"
+    },
+    {
+        "id": "20",
+        "text": "Quel objet est concerné par votre demande ?",
+        "options": [
+          { "text": "Chaudière", "nextQuestionId": null },
+          { "text": "Chauffe-eau / chauffe-bain", "nextQuestionId": null },
+          { "text": "Ballon d'eau chaude", "nextQuestionId": null },
+          { "text": "Radiateur électrique / sèche-serviettes", "nextQuestionId": null }
+        ],
+        "type": "choice",
+        "previousQuestionId": "7"
+    }
+]
+
+  
