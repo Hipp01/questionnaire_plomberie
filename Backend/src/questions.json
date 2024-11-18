@@ -34,9 +34,9 @@
         "text": "Quelle est la nature de votre problème ?",
         "options": [
           { "text": "Engorgement (WC bouchés)", "nextQuestionId": "8" },
-          { "text": "Fuite (recherche de fuite)", "nextQuestionId": "8" },
-          { "text": "Problème de fonctionnement (cuvette...)", "nextQuestionId": "8" },
-          { "text": "Changement de WC", "nextQuestionId": "8" }
+          { "text": "Fuite (recherche de fuite)", "nextQuestionId": "9" },
+          { "text": "Problème de fonctionnement (cuvette...)", "nextQuestionId": "10" },
+          { "text": "Changement de WC", "nextQuestionId": "11" }
         ],
         "type": "choice",
         "previousQuestionId": "2"
@@ -45,9 +45,9 @@
         "id": "4",
         "text": "Quelle est la nature de votre problème ?",
         "options": [
-          { "text": "Engorgement (lavabo / évier bouché)", "nextQuestionId": "9" },
-          { "text": "Fuite / robinetterie", "nextQuestionId": "10" },
-          { "text": "Autre", "nextQuestionId": "11" }
+          { "text": "Engorgement (lavabo / évier bouché)", "nextQuestionId": "12" },
+          { "text": "Fuite / robinetterie", "nextQuestionId": "13" },
+          { "text": "Autre", "nextQuestionId": "14" }
         ],
         "type": "choice",
         "previousQuestionId": "2"
@@ -58,9 +58,9 @@
         "options": [
           { "text": "'Engorgement de douche (bouchée)", "nextQuestionId": null },
           { "text": "Engorgement de baignoire (bouchée)", "nextQuestionId": null },
-          { "text": "Fuite de douche", "nextQuestionId": "12" },
-            { "text": "Fuite de baignoire", "nextQuestionId": "13" },
-            { "text": "Autre", "nextQuestionId": "14" }
+          { "text": "Fuite de douche", "nextQuestionId": "15" },
+          { "text": "Fuite de baignoire", "nextQuestionId": "16" },
+          { "text": "Autre", "nextQuestionId": "17" }
         ],
         "type": "choice",
         "previousQuestionId": "2"
@@ -72,7 +72,7 @@
           { "text": "D'un tuyau d’évacuation (tuyau PVC)", "nextQuestionId": null },
           { "text": "De la vanne d’entrée", "nextQuestionId": null },
           { "text": "D'un autre tuyau", "nextQuestionId": null },
-          { "text": "Je ne vois pas (recherche d'une fuite)", "nextQuestionId": "15" }
+          { "text": "Je ne vois pas (recherche d'une fuite)", "nextQuestionId": "18" }
         ],
         "type": "choice",
         "previousQuestionId": "2"
@@ -81,11 +81,11 @@
         "id": "7",
         "text": "Quel est votre besoin ?",
         "options": [
-          { "text": "Réparation d'une panne", "nextQuestionId": "16" },
+          { "text": "Réparation d'une panne", "nextQuestionId": "19" },
           { "text": "Souscription d'un contrat d'entretien", "nextQuestionId": null },
           { "text": "Réparation d'une fuite du ballon d'eau chaude", "nextQuestionId": null },
           { "text": "Autre", "nextQuestionId": null },
-          { "text": "Installation", "nextQuestionId": "17" }
+          { "text": "Installation", "nextQuestionId": "20" }
         ],
         "type": "choice",
         "previousQuestionId": "2"
@@ -102,7 +102,40 @@
         "previousQuestionId": "3"
     },
     {
-        "id": "9",
+      "id": "9",
+      "text": "Quel type de WC possédez-vous ?",
+      "options": [
+        { "text": "WC simple", "nextQuestionId": null },
+        { "text": "WC suspendu", "nextQuestionId": null },
+        { "text": "Autre", "nextQuestionId": null }
+      ],
+      "type": "choice",
+      "previousQuestionId": "3"
+    },
+    {
+      "id": "10",
+      "text": "Quel type de WC possédez-vous ?",
+      "options": [
+        { "text": "WC simple", "nextQuestionId": null },
+        { "text": "WC suspendu", "nextQuestionId": null },
+        { "text": "Autre", "nextQuestionId": null }
+      ],
+      "type": "choice",
+      "previousQuestionId": "3"
+    },
+    {
+      "id": "11",
+      "text": "Quel type de WC possédez-vous ?",
+      "options": [
+        { "text": "WC simple", "nextQuestionId": null },
+        { "text": "WC suspendu", "nextQuestionId": null },
+        { "text": "Autre", "nextQuestionId": null }
+      ],
+      "type": "choice",
+      "previousQuestionId": "3"
+    },
+    {
+        "id": "12",
         "text": "Votre lavabo possède-t-il un sanispeed ?",
         "options": [
           { "text": "Oui", "nextQuestionId": null },
@@ -112,7 +145,7 @@
         "previousQuestionId": "4"
     },
     {
-        "id": "10",
+        "id": "13",
         "text": "D’où coule l’eau ?",
         "options": [
           { "text": "Autour du robinet", "nextQuestionId": null },
@@ -124,7 +157,7 @@
         "previousQuestionId": "4"
     },
     {
-        "id": "11",
+        "id": "14",
         "text": "Voulez-vous effectuer ?",
         "options": [
           { "text": "Changement de lavabo / évier", "nextQuestionId": null },
@@ -135,7 +168,7 @@
         "previousQuestionId": "4"
     },
     {
-        "id": "12",
+        "id": "15",
         "text": "D’où coule l’eau ?",
         "options": [
           { "text": "Du robinet", "nextQuestionId": null },
@@ -146,7 +179,7 @@
         "previousQuestionId": "5"
     },
     {
-        "id": "13",
+        "id": "16",
         "text": "D’où coule l’eau ?",
         "options": [
           { "text": "Du robinet", "nextQuestionId": null },
@@ -157,7 +190,7 @@
         "previousQuestionId": "5"
     },
     {
-        "id": "14",
+        "id": "17",
         "text": "Voulez-vous effectuer ?",
         "options": [
           { "text": "'Installation de bac à douche", "nextQuestionId": null },
@@ -170,7 +203,7 @@
         "previousQuestionId": "5"
     },
     {
-        "id": "15",
+        "id": "18",
         "text": "Quel type de recherche de fuite souhaitez-vous ?",
         "options": [
           { "text": "Recherche de fuite simple", "nextQuestionId": null },
@@ -180,7 +213,7 @@
         "previousQuestionId": "6"
     },
     {
-        "id": "16",
+        "id": "19",
         "text": "Votre problème est lié ?",
         "options": [
           { "text": "Au chauffage", "nextQuestionId": null },
@@ -191,7 +224,7 @@
         "previousQuestionId": "7"
     },
     {
-        "id": "17",
+        "id": "20",
         "text": "Quel objet est concerné par votre demande ?",
         "options": [
           { "text": "Chaudière", "nextQuestionId": null },

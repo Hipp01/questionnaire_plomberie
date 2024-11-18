@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 
 const connectDB = async () => {
   try {
-    const uri = 'mongodb://127.0.0.1:27017/depannage'; // Remplacez par votre URI
+    const uri = 'mongodb://127.0.0.1:27017/depannage';
     await mongoose.connect(uri, {
       useNewUrlParser: true,
     });

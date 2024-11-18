@@ -1,0 +1,214 @@
+[
+    {
+      "id": "12381",
+      "path": "Plomberie ; WC ; Engorgement (WC bouchés) ; WC Simple ;",
+      "text": "Vous faites face à un problème d'engorgement de WC simple ? Vous vous interrogez sur les raisons de ce blocage et les solutions pour y remédier ? Faites appel à un plombier de MesDépanneurs.fr pour un débouchage efficace et rapide de vos toilettes !"
+    },
+    {
+      "id": "12382",
+      "path": "Plomberie ; WC ; Engorgement (WC bouchés) ; WC Suspendu ;",
+      "text": "Vous avez un WC suspendu bouché ? Vous ne savez pas comment déboucher vos toilettes suspendues ? Faites appel à un plombier de MesDépanneurs.fr pour un débouchage rapide et efficace de vos WC suspendus !"
+    },
+    {
+      "id": "12383",
+      "path": "Plomberie ; WC ; Engorgement (WC bouchés) ; Autre ;",
+      "text": "Vous avez un WC bouché et vous ne savez pas comment le déboucher ? Vous avez essayé plusieurs méthodes mais rien n'y fait ? Faites appel à un plombier de MesDépanneurs.fr pour un débouchage rapide et efficace de vos toilettes !"
+    },
+    {
+      "id": "12391",
+      "path": "Plomberie ; WC ; Fuite (recherche de fuite) ; WC Simple ;",
+      "text": "Vous avez une fuite au niveau de vos WC simples ? Vous ne savez pas d'où provient cette fuite et comment y remédier ? Faites appel à un plombier de MesDépanneurs.fr pour une recherche de fuite et une réparation rapide et efficace de vos toilettes !"
+    },
+    {
+      "id": "12392",
+      "path": "Plomberie ; WC ; Fuite (recherche de fuite) ; WC Suspendu ;"
+    },
+    {
+      "id": "12393",
+      "path": "Plomberie ; WC ; Fuite (recherche de fuite) ; Autre ;"
+    },
+    {
+      "id": "123101",
+      "path": "Plomberie ; WC ; Problème de fonctionnement (cuvette...) ; WC Simple ;"
+    },
+    {
+      "id": "123102",
+      "path": "Plomberie ; WC ; Problème de fonctionnement (cuvette...) ; WC Suspendu ;"
+    },
+    {
+      "id": "123103",
+      "path": "Plomberie ; WC ; Problème de fonctionnement (cuvette...) ; Autre ;"
+    },
+    {
+      "id": "123111",
+      "path": "Plomberie ; WC ; Changement de WC ; WC Simple ;"
+    },
+    {
+      "id": "123112",
+      "path": "Plomberie ; WC ; Changement de WC ; WC Suspendu ;"
+    },
+    {
+      "id": "123113",
+      "path": "Plomberie ; WC ; Changement de WC ; Autre ;"
+    },
+    {
+      "id": "124121",
+      "path": "Plomberie ; Lavabo ; Engorgement (lavabo / évier bouché) ; Oui ;"
+    },
+    {
+      "id": "124122",
+      "path": "Plomberie ; Lavabo ; Engorgement (lavabo / évier bouché) ; Non ;"
+    },
+    {
+      "id": "124131",
+      "path": "Plomberie ; Lavabo ; Fuite / robinetterie ; Autour du robinet ;"
+    },
+    {
+      "id": "124132",
+      "path": "Plomberie ; Lavabo ; Fuite / robinetterie ; Directement du robinet ;"
+    },
+    {
+      "id": "124133",
+      "path": "Plomberie ; Lavabo ; Fuite / robinetterie ; Au niveau du siphon ;"
+    },
+    {
+      "id": "124134",
+      "path": "Plomberie ; Lavabo ; Fuite / robinetterie ; Au niveau des flexibles ;"
+    },
+    {
+        "id": "124141",
+        "path": "Plomberie ; Lavabo ; Autre ; Changement de lavabo / évier ;"
+    },
+    {
+        "id": "124142",
+        "path": "Plomberie ; Lavabo ; Autre ; Installation d'un robinet ;"
+    },
+    {
+        "id": "124143",
+        "path": "Plomberie ; Lavabo ; Autre ; Autre ;"
+    },
+    {
+        "id": "1251",
+        "path": "Plomberie ; Douche ; Engorgement de douche (bouchée) ;"
+    },
+    {
+        "id": "1252",
+      "path": "Plomberie ; Douche ; Engorgement de baignoire (bouchée) ;"
+    },
+    {
+      "id": "125151",
+      "path": "Plomberie ; Douche ; Fuite de douche ; Du robinet ;"
+    },
+    {
+      "id": "125152",
+      "path": "Plomberie ; Douche ; Fuite de douche ; Du tuyau d’évacuation (sous la douche) ;"
+    },
+    {
+      "id": "125153",
+      "path": "Plomberie ; Douche ; Fuite de douche ; Inconnu ;"
+    },
+    {
+      "id": "125161",
+      "path": "Plomberie ; Douche ; Fuite de baignoire ; Du robinet ;"
+    },
+    {
+      "id": "125162",
+      "path": "Plomberie ; Douche ; Fuite de baignoire ; Du tuyau d’évacuation ;"
+    },
+    {
+      "id": "125163",
+      "path": "Plomberie ; Douche ; Fuite de baignoire ; Inconnu ;"
+    },
+    {
+      "id": "125171",
+      "path": "Plomberie ; Douche ; Autre ; Installation de bac à douche ;"
+    },
+    {
+      "id": "125172",
+      "path": "Plomberie ; Douche ; Autre ; Installation de baignoire ;"
+    },
+    {
+      "id": "125173",
+      "path": "Plomberie ; Douche ; Autre ; Autre problème avec la douche ;"
+    },
+    {
+      "id": "125174",
+      "path": "Plomberie ; Douche ; Autre ; Autre problème avec la baignoire ;"
+    },
+    {
+      "id": "125175",
+      "path": "Plomberie ; Douche ; Autre ; Réfection des joints de la douche / baignoire ;"
+    },
+    {
+      "id": "12",
+        "path": "Plomberie ; Colonne générale d'immeuble ;"
+    },
+    {
+      "id": "1261",
+      "path": "Plomberie ; Tuyauterie ; D'un tuyau d’évacuation (tuyau PVC) ;"
+    },
+    {
+      "id": "1262",
+      "path": "Plomberie ; Tuyauterie ; De la vanne d'entrée ;"
+    },
+    {
+      "id": "1263",
+      "path": "Plomberie ; Tuyauterie ; D'un autre tuyau ;"
+    },
+    { 
+      "id": "126181",
+      "path": "Plomberie ; Tuyauterie ; Je ne vois pas (recherche d'une fuite) ; Recherche de fuite simple ;"
+    },
+    { 
+      "id": "126182",
+      "path": "Plomberie ; Tuyauterie ; Je ne vois pas (recherche d'une fuite) ; Recherche de fuite encastrée ;"
+    },
+    {
+        "id": "127191",
+        "path": "Plomberie ; Chaudière ; Réparation d'une panne ; Au chauffage ;"
+    },
+    {
+        "id": "127192",
+        "path": "Plomberie ; Chaudière ; Réparation d'une panne ; A l'eau chaude ;"
+    },
+    {
+        "id": "127193",
+        "path": "Plomberie ; Chaudière ; Réparation d'une panne ; Au chauffage et à l'eau chaude ;"
+    },
+    {
+        "id": "1272",
+        "path": "Plomberie ; Chaudière ; Souscription d'un contrat d'Entretien ;"
+    },
+    {
+        "id": "1273",
+        "path": "Plomberie ; Chaudière ; Réparation d'une fuite du ballon d'eau chaude ;"
+    },
+    {
+        "id": "1274",
+        "path": "Plomberie ; Chaudière ; Autre ;"
+    },
+    {
+        "id": "127201",
+        "path": "Plomberie ; Chaudière ; Installation ; Chaudière ;"
+    },
+    {
+        "id": "127202",
+        "path": "Plomberie ; Chaudière ; Installation ; Chauffe-eau / chauffe-bain ;"
+    },
+    {
+        "id": "127203",
+        "path": "Plomberie ; Chaudière ; Installation ; Ballon d'eau chaude ;"
+    },
+    {
+        "id": "128204",
+        "path": "Plomberie ; Ballon d'eau chaude ; Radiateur électrique / sèche-serviette ;"
+    },
+    {
+        "id": "129",
+        "path": "Plomberie ; Tuyau de la machine à laver / du lave-vaisselle ;"
+    },
+    {
+        "id": "1210",
+        "path": "Plomberie ; Autre ;"
+    }
+]
