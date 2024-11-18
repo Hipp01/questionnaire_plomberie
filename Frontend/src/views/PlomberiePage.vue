@@ -1,31 +1,6 @@
 <template>
   <div class="bg-light">
-    <div class="container">
-      <h1>{{ currentQuestion.text }}</h1>
-      <span class="wave"><img src="@/assets/icons/red-wave.svg" alt="Wave"/></span>
-    </div>
-    <div class="options">
-      <div v-for="(option, index) in currentQuestion.options" :key="index" class="option-item">
-        <button @click="currentAnswer = option.value">
-          <span class="option-text">{{ option.value }}</span>
-          <span class="arrow-icon">
-            <img src="@/assets/icons/arrow.png" alt="Arrow">
-          </span>
-        </button>
-      </div>
-      <div class="previous-step-container">
-        <button class="previous-step-button" @click="goToPreviousStep">
-          <span class="arrow-icon-left">
-            <img
-              src="@/assets/icons/arrow-left.svg"
-              alt="Arrow Left"
-              class="arrow-left"
-            />
-          </span>
-          Étape précédente
-        </button>
-      </div>
-    </div>
+    <Questionnaire :initialQuestionId="2" />
     <GreenCard />
   </div>
 </template>
@@ -33,44 +8,13 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 import GreenCard from '@/components/GreenCard.vue';
+import Questionnaire from '@/components/QuestionnaireComponent.vue';
 
 export default defineComponent({
   name: 'PlomberiePage',
   components: {
     GreenCard,
-  },
-  data() {
-    return {
-      questions: [], // Contiendra toutes les questions et sous-questions
-      currentQuestion: null, // Question actuelle
-      currentAnswer: null, // Réponse de l'utilisateur à la question actuelle
-      currentSubQuestion: null, // Sous-question actuelle
-      currentSubAnswer: null, // Réponse à la sous-question
-      isComplete: false, // Si le questionnaire est complet
-      questionIndex: 0, // Indice pour suivre la question actuelle
-      subQuestionIndex: 0, // Indice pour suivre la sous-question actuelle
-    };
-  },
-  async mounted() {
-    // Charger les questions depuis un fichier JSON externe (API ou fichier local)
-    await this.loadQuestions();
-  },
-  methods: {
-    // Cette fonction va récupérer les questions depuis un fichier JSON ou une API
-    async loadQuestions() {
-      try {
-        // Simulation de la récupération du fichier JSON (remplacer par une requête API si nécessaire)
-        const response = await fetch('/questions.json'); // Remplace le chemin par celui du fichier JSON
-        console.log(response);
-        const jsonData = await response.json();
-        console.log('Questions loaded:', jsonData.questions);
-
-        this.questions = jsonData.questions;
-        this.currentQuestion = this.questions[0]; // La première question est sélectionnée par défaut
-      } catch (error) {
-        console.error('Erreur lors du chargement des questions:', error);
-      }
-    },
+    Questionnaire,
   },
 });
 </script>
