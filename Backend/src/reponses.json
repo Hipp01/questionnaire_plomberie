@@ -1,214 +1,1043 @@
 [
     {
-      "id": "12381",
+      "id": "1238_1",
       "path": "Plomberie ; WC ; Engorgement (WC bouchés) ; WC Simple ;",
-      "text": "Vous faites face à un problème d'engorgement de WC simple ? Vous vous interrogez sur les raisons de ce blocage et les solutions pour y remédier ? Faites appel à un plombier de MesDépanneurs.fr pour un débouchage efficace et rapide de vos toilettes !"
+      "title": "Débouchage de WC simple en cas d'engorgement (WC bouchés)",
+      "text": "Dans les cas les plus complexes, où le dégorgement dure plus de deux heures, le coût total pourrait excéder le devis initial (si l'usage d'un furet électrique sur différents niveaux est requis par exemple). ; Néanmoins, sachez que le plombier vous préviendra en amont de toute modification des frais si cette situation se produit",
+      "infos": ["Le coût du débouchage de WC simple dépend de l'ampleur de l'engorgement de vos toilettes et de la complexité à éliminer le bouchon. Le cas \"Débouchage de WC\" comprend les prestations suivantes :",
+      "Les frais de déplacement et de main-d'œuvre",
+      "La fourniture du matériel (pompe manuelle, acides, furet électrique, etc)",
+      "Le débouchage des WC",
+      "Le nettoyage du chantier"
+      ],
+      "couts": [
+          "Entre 150€ et 300€ TTC",
+          "Gros matériel",
+          "Déplacement",
+          "Petites fournitures",
+          "Nettoyage du chantier",
+          "Main d'oeuvre"
+      ]
     },
     {
-      "id": "12382",
+      "id": "1238_2",
       "path": "Plomberie ; WC ; Engorgement (WC bouchés) ; WC Suspendu ;",
-      "text": "Vous avez un WC suspendu bouché ? Vous ne savez pas comment déboucher vos toilettes suspendues ? Faites appel à un plombier de MesDépanneurs.fr pour un débouchage rapide et efficace de vos WC suspendus !"
+      "title": "Débouchage de WC suspendu en cas d'engorgement (WC bouchés)",
+      "text": "Dans les cas les plus complexes, où le dégorgement dure plus de deux heures, le coût total pourrait excéder le devis initial (si l'usage d'un furet électrique sur différents niveaux est requis par exemple). ; Néanmoins, sachez que le plombier vous préviendra en amont de toute modification des frais si cette situation se produit",
+      "infos": ["Le coût du débouchage de WC suspendu dépend de l'ampleur de l'engorgement de vos toilettes et de la complexité à éliminer le bouchon. Le cas \"Débouchage de WC\" comprend les prestations suivantes :",
+      "Les frais de déplacement et de main-d'œuvre",
+      "La fourniture du matériel (pompe manuelle, acides, furet électrique, etc)",
+      "Le débouchage des WC",
+      "Le nettoyage du chantier"
+      ],
+      "couts": [
+          "Entre 150€ et 300€ TTC",
+          "Gros matériel",
+          "Déplacement",
+          "Petites fournitures",
+          "Nettoyage du chantier",
+          "Main d'oeuvre"
+      ]
     },
     {
-      "id": "12383",
+      "id": "1238_3",
       "path": "Plomberie ; WC ; Engorgement (WC bouchés) ; Autre ;",
-      "text": "Vous avez un WC bouché et vous ne savez pas comment le déboucher ? Vous avez essayé plusieurs méthodes mais rien n'y fait ? Faites appel à un plombier de MesDépanneurs.fr pour un débouchage rapide et efficace de vos toilettes !"
+      "title": "Débouchage de WC en cas d'engorgement (WC bouchés)",
+      "text": "Dans les cas les plus complexes, où le dégorgement dure plus de deux heures, le coût total pourrait excéder le devis initial (si l'usage d'un furet électrique sur différents niveaux est requis par exemple). ; Néanmoins, sachez que le plombier vous préviendra en amont de toute modification des frais si cette situation se produit",
+      "infos": ["Le coût du débouchage de WC dépend de l'ampleur de l'engorgement de vos toilettes et de la complexité à éliminer le bouchon. Le cas \"Débouchage de WC\" comprend les prestations suivantes :",
+      "Les frais de déplacement et de main-d'œuvre",
+      "La fourniture du matériel (pompe manuelle, acides, furet électrique, etc)",
+      "Le débouchage des WC",
+      "Le nettoyage du chantier"
+      ],
+      "couts": [
+          "Entre 150€ et 300€ TTC",
+          "Gros matériel",
+          "Déplacement",
+          "Petites fournitures",
+          "Nettoyage du chantier",
+          "Main d'oeuvre"
+      ]
     },
     {
-      "id": "12391",
+      "id": "1239_1",
       "path": "Plomberie ; WC ; Fuite (recherche de fuite) ; WC Simple ;",
-      "text": "Vous avez une fuite au niveau de vos WC simples ? Vous ne savez pas d'où provient cette fuite et comment y remédier ? Faites appel à un plombier de MesDépanneurs.fr pour une recherche de fuite et une réparation rapide et efficace de vos toilettes !"
+      "title": "Réparation d’une fuite de la vanne principale ou avant la vanne",
+      "text": "La réparation d'une fuite de la vanne principale ou avant la vanne est une opération délicate qui nécessite l'intervention d'un professionnel. ; En effet, une fuite d'eau peut causer des dégâts importants dans votre logement et augmenter votre facture d'eau. ; Le plombier doit identifier l'origine de la fuite et la réparer dans les plus brefs délais.",
+      "infos": ["Le coût de la réparation d'une fuite de la vanne principale ou avant la vanne dépend de l'ampleur de la fuite et de la complexité de l'intervention. Le cas \"Réparation d'une fuite de la vanne principale ou avant la vanne\" comprend les prestations suivantes :",
+      "Les frais de déplacement et de main-d'œuvre",
+      "La recherche de la fuite",
+      "La réparation de la fuite",
+      "Le nettoyage du chantier"
+      ],
+      "couts": [
+          "Entre 150€ et 300€ TTC",
+          "Gros matériel",
+          "Déplacement",
+          "Petites fournitures",
+          "Nettoyage du chantier",
+          "Main d'oeuvre"
+      ]    
     },
     {
-      "id": "12392",
-      "path": "Plomberie ; WC ; Fuite (recherche de fuite) ; WC Suspendu ;"
+      "id": "1239_2",
+      "path": "Plomberie ; WC ; Fuite (recherche de fuite) ; WC Suspendu ;",
+      "title": "Réparation d’une fuite de la vanne principale ou avant la vanne",
+      "text": "La réparation d'une fuite de la vanne principale ou avant la vanne est une opération délicate qui nécessite l'intervention d'un professionnel. ; En effet, une fuite d'eau peut causer des dégâts importants dans votre logement et augmenter votre facture d'eau. ; Le plombier doit identifier l'origine de la fuite et la réparer dans les plus brefs délais.",
+      "infos": ["Le coût de la réparation d'une fuite de la vanne principale ou avant la vanne dépend de l'ampleur de la fuite et de la complexité de l'intervention. Le cas \"Réparation d'une fuite de la vanne principale ou avant la vanne\" comprend les prestations suivantes :",
+      "Les frais de déplacement et de main-d'œuvre",
+      "La recherche de la fuite",
+      "La réparation de la fuite",
+      "Le nettoyage du chantier"
+      ],
+      "couts": [
+          "Entre 150€ et 300€ TTC",
+          "Gros matériel",
+          "Déplacement",
+          "Petites fournitures",
+          "Nettoyage du chantier",
+          "Main d'oeuvre"
+      ]
     },
     {
-      "id": "12393",
-      "path": "Plomberie ; WC ; Fuite (recherche de fuite) ; Autre ;"
+      "id": "1239_3",
+      "path": "Plomberie ; WC ; Fuite (recherche de fuite) ; Autre ;",
+      "title": "Réparation d’une fuite de la vanne principale ou avant la vanne",
+      "text": "La réparation d'une fuite de la vanne principale ou avant la vanne est une opération délicate qui nécessite l'intervention d'un professionnel. ; En effet, une fuite d'eau peut causer des dégâts importants dans votre logement et augmenter votre facture d'eau. ; Le plombier doit identifier l'origine de la fuite et la réparer dans les plus brefs délais.",
+      "infos": ["Le coût de la réparation d'une fuite de la vanne principale ou avant la vanne dépend de l'ampleur de la fuite et de la complexité de l'intervention. Le cas \"Réparation d'une fuite de la vanne principale ou avant la vanne\" comprend les prestations suivantes :",
+      "Les frais de déplacement et de main-d'œuvre",
+      "La recherche de la fuite",
+      "La réparation de la fuite",
+      "Le nettoyage du chantier"
+      ],
+      "couts": [
+          "Entre 150€ et 300€ TTC",
+          "Gros matériel",
+          "Déplacement",
+          "Petites fournitures",
+          "Nettoyage du chantier",
+          "Main d'oeuvre"
+      ]
     },
     {
-      "id": "123101",
-      "path": "Plomberie ; WC ; Problème de fonctionnement (cuvette...) ; WC Simple ;"
+      "id": "12310_1",
+      "path": "Plomberie ; WC ; Problème de fonctionnement (cuvette...) ; WC Simple ;",
+      "title": "Changement de WC simple en cas de problème de fonctionnement (cuvette...)",
+      "text": "Le changement de WC simple en cas de problème de fonctionnement (cuvette...) est une opération délicate qui nécessite l'intervention d'un professionnel. ; En effet, un WC défectueux peut causer des désagréments au quotidien et augmenter votre facture d'eau. ; Le plombier doit identifier l'origine du problème et remplacer le WC défectueux dans les plus brefs délais.",
+      "infos": ["Le coût du changement de WC simple en cas de problème de fonctionnement (cuvette...) dépend de la complexité de l'intervention et du modèle de WC choisi. Le cas \"Changement de WC simple\" comprend les prestations suivantes :",
+      "Les frais de déplacement et de main-d'œuvre",
+      "La fourniture du nouveau WC",
+      "Le remplacement du WC",
+      "Le nettoyage du chantier"
+      ],
+      "couts": [
+          "Entre 300€ et 500€ TTC",
+          "Gros matériel",
+          "Déplacement",
+          "Petites fournitures",
+          "Nettoyage du chantier",
+          "Main d'oeuvre"
+      ]
     },
     {
-      "id": "123102",
-      "path": "Plomberie ; WC ; Problème de fonctionnement (cuvette...) ; WC Suspendu ;"
+      "id": "12310_2",
+      "path": "Plomberie ; WC ; Problème de fonctionnement (cuvette...) ; WC Suspendu ;",
+      "title": "Changement de WC suspendu en cas de problème de fonctionnement (cuvette...)",
+      "text": "Le changement de WC suspendu en cas de problème de fonctionnement (cuvette...) est une opération délicate qui nécessite l'intervention d'un professionnel. ; En effet, un WC défectueux peut causer des désagréments au quotidien et augmenter votre facture d'eau. ; Le plombier doit identifier l'origine du problème et remplacer le WC défectueux dans les plus brefs délais.",
+      "infos": ["Le coût du changement de WC suspendu en cas de problème de fonctionnement (cuvette...) dépend de la complexité de l'intervention et du modèle de WC choisi. Le cas \"Changement de WC suspendu\" comprend les prestations suivantes :",
+      "Les frais de déplacement et de main-d'œuvre",
+      "La fourniture du nouveau WC",
+      "Le remplacement du WC",
+      "Le nettoyage du chantier"
+      ],
+      "couts": [
+          "Entre 300€ et 500€ TTC",
+          "Gros matériel",
+          "Déplacement",
+          "Petites fournitures",
+          "Nettoyage du chantier",
+          "Main d'oeuvre"
+      ]
     },
     {
-      "id": "123103",
-      "path": "Plomberie ; WC ; Problème de fonctionnement (cuvette...) ; Autre ;"
+      "id": "12310_3",
+      "path": "Plomberie ; WC ; Problème de fonctionnement (cuvette...) ; Autre ;",
+      "title": "Changement de WC en cas de problème de fonctionnement (cuvette...)",
+      "text": "Le changement de WC en cas de problème de fonctionnement (cuvette...) est une opération délicate qui nécessite l'intervention d'un professionnel. ; En effet, un WC défectueux peut causer des désagréments au quotidien et augmenter votre facture d'eau. ; Le plombier doit identifier l'origine du problème et remplacer le WC défectueux dans les plus brefs délais.",
+      "infos": ["Le coût du changement de WC en cas de problème de fonctionnement (cuvette...) dépend de la complexité de l'intervention et du modèle de WC choisi. Le cas \"Changement de WC\" comprend les prestations suivantes :",
+      "Les frais de déplacement et de main-d'œuvre",
+      "La fourniture du nouveau WC",
+      "Le remplacement du WC",
+      "Le nettoyage du chantier"
+      ],
+      "couts": [
+          "Entre 300€ et 500€ TTC",
+          "Gros matériel",
+          "Déplacement",
+          "Petites fournitures",
+          "Nettoyage du chantier",
+          "Main d'oeuvre"
+      ]
     },
     {
-      "id": "123111",
-      "path": "Plomberie ; WC ; Changement de WC ; WC Simple ;"
+      "id": "12311_1",
+      "path": "Plomberie ; WC ; Changement de WC ; WC Simple ;",
+      "title": "Changement de WC simple",
+      "text": "Le changement de WC simple est une opération délicate qui nécessite l'intervention d'un professionnel. ; En effet, un WC défectueux peut causer des désagréments au quotidien et augmenter votre facture d'eau. ; Le plombier doit identifier l'origine du problème et remplacer le WC défectueux dans les plus brefs délais.",
+      "infos": ["Le coût du changement de WC simple dépend de la complexité de l'intervention et du modèle de WC choisi. Le cas \"Changement de WC simple\" comprend les prestations suivantes :",
+      "Les frais de déplacement et de main-d'œuvre",
+      "La fourniture du nouveau WC",
+      "Le remplacement du WC",
+      "Le nettoyage du chantier"
+      ],
+      "couts": [
+          "Entre 300€ et 500€ TTC",
+          "Gros matériel",
+          "Déplacement",
+          "Petites fournitures",
+          "Nettoyage du chantier",
+          "Main d'oeuvre"
+      ]
     },
     {
-      "id": "123112",
-      "path": "Plomberie ; WC ; Changement de WC ; WC Suspendu ;"
+      "id": "12311_2",
+      "path": "Plomberie ; WC ; Changement de WC ; WC Suspendu ;",
+      "title": "Changement de WC suspendu",
+      "text": "Le changement de WC suspendu est une opération délicate qui nécessite l'intervention d'un professionnel. ; En effet, un WC défectueux peut causer des désagréments au quotidien et augmenter votre facture d'eau. ; Le plombier doit identifier l'origine du problème et remplacer le WC défectueux dans les plus brefs délais.",
+      "infos": ["Le coût du changement de WC suspendu dépend de la complexité de l'intervention et du modèle de WC choisi. Le cas \"Changement de WC suspendu\" comprend les prestations suivantes :",
+      "Les frais de déplacement et de main-d'œuvre",
+      "La fourniture du nouveau WC",
+      "Le remplacement du WC",
+      "Le nettoyage du chantier"
+      ],
+      "couts": [
+          "Entre 300€ et 500€ TTC",
+          "Gros matériel",
+          "Déplacement",
+          "Petites fournitures",
+          "Nettoyage du chantier",
+          "Main d'oeuvre"
+      ]
     },
     {
-      "id": "123113",
-      "path": "Plomberie ; WC ; Changement de WC ; Autre ;"
+      "id": "12311_3",
+      "path": "Plomberie ; WC ; Changement de WC ; Autre ;",
+      "title": "Changement de WC",
+      "text": "Le changement de WC est une opération délicate qui nécessite l'intervention d'un professionnel. ; En effet, un WC défectueux peut causer des désagréments au quotidien et augmenter votre facture d'eau. ; Le plombier doit identifier l'origine du problème et remplacer le WC défectueux dans les plus brefs délais.",
+      "infos": ["Le coût du changement de WC dépend de la complexité de l'intervention et du modèle de WC choisi. Le cas \"Changement de WC\" comprend les prestations suivantes :",
+      "Les frais de déplacement et de main-d'œuvre",
+      "La fourniture du nouveau WC",
+      "Le remplacement du WC",
+      "Le nettoyage du chantier"
+      ],
+      "couts": [
+          "Entre 300€ et 500€ TTC",
+          "Gros matériel",
+          "Déplacement",
+          "Petites fournitures",
+          "Nettoyage du chantier",
+          "Main d'oeuvre"
+      ]
     },
     {
-      "id": "124121",
-      "path": "Plomberie ; Lavabo ; Engorgement (lavabo / évier bouché) ; Oui ;"
+      "id": "12412_1",
+      "path": "Plomberie ; Lavabo ; Engorgement (lavabo / évier bouché) ; Oui ;",
+      "title": "Débouchage de lavabo ou évier bouché avec Sanispeed",
+      "text": "Le débouchage de lavabo ou évier bouché avec Sanispeed est une opération délicate qui nécessite l'intervention d'un professionnel. ; En effet, un lavabo ou évier bouché peut causer des désagréments au quotidien et augmenter votre facture d'eau. ; Le plombier doit identifier l'origine du bouchon et le déboucher dans les plus brefs délais.",
+      "infos": ["Le coût du débouchage de lavabo ou évier bouché avec Sanispeed dépend de l'ampleur de l'engorgement et de la complexité de l'intervention. Le cas \"Débouchage de lavabo ou évier bouché avec Sanispeed\" comprend les prestations suivantes :",
+      "Les frais de déplacement et de main-d'œuvre",
+      "La recherche du bouchon",
+      "Le débouchage du lavabo ou évier",
+      "Le nettoyage du chantier"
+      ],
+      "couts": [
+          "Entre 150€ et 300€ TTC",
+          "Gros matériel",
+          "Déplacement",
+          "Petites fournitures",
+          "Nettoyage du chantier",
+          "Main d'oeuvre"
+      ]
     },
     {
-      "id": "124122",
-      "path": "Plomberie ; Lavabo ; Engorgement (lavabo / évier bouché) ; Non ;"
+      "id": "12412_2",
+      "path": "Plomberie ; Lavabo ; Engorgement (lavabo / évier bouché) ; Non ;",
+      "title": "Débouchage de lavabo ou évier bouché sans Sanispeed",
+      "text": "Le débouchage de lavabo ou évier bouché sans Sanispeed est une opération délicate qui nécessite l'intervention d'un professionnel. ; En effet, un lavabo ou évier bouché peut causer des désagréments au quotidien et augmenter votre facture d'eau. ; Le plombier doit identifier l'origine du bouchon et le déboucher dans les plus brefs délais.",
+      "infos": ["Le coût du débouchage de lavabo ou évier bouché sans Sanispeed dépend de l'ampleur de l'engorgement et de la complexité de l'intervention. Le cas \"Débouchage de lavabo ou évier bouché sans Sanispeed\" comprend les prestations suivantes :",
+      "Les frais de déplacement et de main-d'œuvre",
+      "La recherche du bouchon",
+      "Le débouchage du lavabo ou évier",
+      "Le nettoyage du chantier"
+      ],
+      "couts": [
+          "Entre 150€ et 300€ TTC",
+          "Gros matériel",
+          "Déplacement",
+          "Petites fournitures",
+          "Nettoyage du chantier",
+          "Main d'oeuvre"
+      ]
     },
     {
-      "id": "124131",
-      "path": "Plomberie ; Lavabo ; Fuite / robinetterie ; Autour du robinet ;"
+      "id": "12413_1",
+      "path": "Plomberie ; Lavabo ; Fuite / robinetterie ; Autour du robinet ;",
+      "title": "Réparation d'une fuite autour du robinet de lavabo",
+      "text": "La réparation d'une fuite autour du robinet de lavabo est une opération délicate qui nécessite l'intervention d'un professionnel. ; En effet, une fuite d'eau peut causer des dégâts importants dans votre logement et augmenter votre facture d'eau. ; Le plombier doit identifier l'origine de la fuite et la réparer dans les plus brefs délais.",
+      "infos": ["Le coût de la réparation d'une fuite autour du robinet de lavabo dépend de l'ampleur de la fuite et de la complexité de l'intervention. Le cas \"Réparation d'une fuite autour du robinet de lavabo\" comprend les prestations suivantes :",
+      "Les frais de déplacement et de main-d'œuvre",
+      "La recherche de la fuite",
+      "La réparation de la fuite",
+      "Le nettoyage du chantier"
+      ],
+      "couts": [
+          "Entre 150€ et 300€ TTC",
+          "Gros matériel",
+          "Déplacement",
+          "Petites fournitures",
+          "Nettoyage du chantier",
+          "Main d'oeuvre"
+      ]
     },
     {
-      "id": "124132",
-      "path": "Plomberie ; Lavabo ; Fuite / robinetterie ; Directement du robinet ;"
+      "id": "12413_2",
+      "path": "Plomberie ; Lavabo ; Fuite / robinetterie ; Directement du robinet ;",
+      "title": "Réparation d'une fuite directement du robinet de lavabo",
+      "text": "La réparation d'une fuite directement du robinet de lavabo est une opération délicate qui nécessite l'intervention d'un professionnel. ; En effet, une fuite d'eau peut causer des dégâts importants dans votre logement et augmenter votre facture d'eau. ; Le plombier doit identifier l'origine de la fuite et la réparer dans les plus brefs délais.",
+      "infos": ["Le coût de la réparation d'une fuite directement du robinet de lavabo dépend de l'ampleur de la fuite et de la complexité de l'intervention. Le cas \"Réparation d'une fuite directement du robinet de lavabo\" comprend les prestations suivantes :",
+      "Les frais de déplacement et de main-d'œuvre",
+      "La recherche de la fuite",
+      "La réparation de la fuite",
+      "Le nettoyage du chantier"
+      ],
+      "couts": [
+          "Entre 150€ et 300€ TTC",
+          "Gros matériel",
+          "Déplacement",
+          "Petites fournitures",
+          "Nettoyage du chantier",
+          "Main d'oeuvre"
+      ]
     },
     {
-      "id": "124133",
-      "path": "Plomberie ; Lavabo ; Fuite / robinetterie ; Au niveau du siphon ;"
+      "id": "12413_3",
+      "path": "Plomberie ; Lavabo ; Fuite / robinetterie ; Au niveau du siphon ;",
+      "title": "Réparation d'une fuite au niveau du siphon de lavabo",
+      "text": "La réparation d'une fuite au niveau du siphon de lavabo est une opération délicate qui nécessite l'intervention d'un professionnel. ; En effet, une fuite d'eau peut causer des dégâts importants dans votre logement et augmenter votre facture d'eau. ; Le plombier doit identifier l'origine de la fuite et la réparer dans les plus brefs délais.",
+      "infos": ["Le coût de la réparation d'une fuite au niveau du siphon de lavabo dépend de l'ampleur de la fuite et de la complexité de l'intervention. Le cas \"Réparation d'une fuite au niveau du siphon de lavabo\" comprend les prestations suivantes :",
+      "Les frais de déplacement et de main-d'œuvre",
+      "La recherche de la fuite",
+      "La réparation de la fuite",
+      "Le nettoyage du chantier"
+      ],
+      "couts": [
+          "Entre 150€ et 300€ TTC",
+          "Gros matériel",
+          "Déplacement",
+          "Petites fournitures",
+          "Nettoyage du chantier",
+          "Main d'oeuvre"
+      ]
     },
     {
-      "id": "124134",
-      "path": "Plomberie ; Lavabo ; Fuite / robinetterie ; Au niveau des flexibles ;"
+      "id": "12413_4",
+      "path": "Plomberie ; Lavabo ; Fuite / robinetterie ; Au niveau des flexibles ;",
+      "title": "Réparation d'une fuite au niveau des flexibles de lavabo",
+      "text": "La réparation d'une fuite au niveau des flexibles de lavabo est une opération délicate qui nécessite l'intervention d'un professionnel. ; En effet, une fuite d'eau peut causer des dégâts importants dans votre logement et augmenter votre facture d'eau. ; Le plombier doit identifier l'origine de la fuite et la réparer dans les plus brefs délais.",
+      "infos": ["Le coût de la réparation d'une fuite au niveau des flexibles de lavabo dépend de l'ampleur de la fuite et de la complexité de l'intervention. Le cas \"Réparation d'une fuite au niveau des flexibles de lavabo\" comprend les prestations suivantes :",
+      "Les frais de déplacement et de main-d'œuvre",
+      "La recherche de la fuite",
+      "La réparation de la fuite",
+      "Le nettoyage du chantier"
+      ],
+      "couts": [
+          "Entre 150€ et 300€ TTC",
+          "Gros matériel",
+          "Déplacement",
+          "Petites fournitures",
+          "Nettoyage du chantier",
+          "Main d'oeuvre"
+      ]
     },
     {
-        "id": "124141",
-        "path": "Plomberie ; Lavabo ; Autre ; Changement de lavabo / évier ;"
+        "id": "12414_1",
+        "path": "Plomberie ; Lavabo ; Autre ; Changement de lavabo / évier ;",
+        "title": "Changement de lavabo ou évier",
+        "text": "Le changement de lavabo ou évier est une opération délicate qui nécessite l'intervention d'un professionnel. ; En effet, un lavabo ou évier défectueux peut causer des désagréments au quotidien et augmenter votre facture d'eau. ; Le plombier doit identifier l'origine du problème et remplacer le lavabo ou évier défectueux dans les plus brefs délais.",
+        "infos": ["Le coût du changement de lavabo ou évier dépend de la complexité de l'intervention et du modèle de lavabo ou évier choisi. Le cas \"Changement de lavabo ou évier\" comprend les prestations suivantes :",
+        "Les frais de déplacement et de main-d'œuvre",
+        "La fourniture du nouveau lavabo ou évier",
+        "Le remplacement du lavabo ou évier",
+        "Le nettoyage du chantier"
+        ],
+        "couts": [
+            "Entre 300€ et 500€ TTC",
+            "Gros matériel",
+            "Déplacement",
+            "Petites fournitures",
+            "Nettoyage du chantier",
+            "Main d'oeuvre"
+        ]
     },
     {
-        "id": "124142",
-        "path": "Plomberie ; Lavabo ; Autre ; Installation d'un robinet ;"
+        "id": "12414_2",
+        "path": "Plomberie ; Lavabo ; Autre ; Installation d'un robinet ;",
+        "title": "Installation d'un robinet de lavabo",
+        "text": "L'installation d'un robinet de lavabo est une opération délicate qui nécessite l'intervention d'un professionnel. ; En effet, un robinet mal installé peut causer des fuites d'eau et des dégâts importants dans votre logement. ; Le plombier doit installer le robinet de lavabo dans les règles de l'art pour assurer son bon fonctionnement.",
+        "infos": ["Le coût de l'installation d'un robinet de lavabo dépend de la complexité de l'intervention et du modèle de robinet choisi. Le cas \"Installation d'un robinet de lavabo\" comprend les prestations suivantes :",
+        "Les frais de déplacement et de main-d'œuvre",
+        "La fourniture du nouveau robinet",
+        "L'installation du robinet",
+        "Le nettoyage du chantier"
+        ],
+        "couts": [
+            "Entre 150€ et 300€ TTC",
+            "Gros matériel",
+            "Déplacement",
+            "Petites fournitures",
+            "Nettoyage du chantier",
+            "Main d'oeuvre"
+        ]
     },
     {
-        "id": "124143",
-        "path": "Plomberie ; Lavabo ; Autre ; Autre ;"
+        "id": "12414_3",
+        "path": "Plomberie ; Lavabo ; Autre ; Autre ;",
+        "title": "Autre problème avec le lavabo",
+        "text": "Les problèmes de lavabo peuvent être variés et nécessiter l'intervention d'un professionnel. ; En effet, un lavabo défectueux peut causer des désagréments au quotidien et augmenter votre facture d'eau. ; Le plombier doit identifier l'origine du problème et le résoudre dans les plus brefs délais.",
+        "infos": ["Le coût de l'intervention dépend de la nature du problème et de la complexité de l'intervention. Le cas \"Autre problème avec le lavabo\" comprend les prestations suivantes :",
+        "Les frais de déplacement et de main-d'œuvre",
+        "La recherche de la panne",
+        "La réparation du lavabo",
+        "Le nettoyage du chantier"
+        ],
+        "couts": [
+            "Entre 150€ et 300€ TTC",
+            "Gros matériel",
+            "Déplacement",
+            "Petites fournitures",
+            "Nettoyage du chantier",
+            "Main d'oeuvre"
+        ]
     },
     {
-        "id": "1251",
-        "path": "Plomberie ; Douche ; Engorgement de douche (bouchée) ;"
+        "id": "125_1",
+        "path": "Plomberie ; Douche ; Engorgement de douche (bouchée) ;",
+        "title": "Débouchage de douche en cas d'engorgement (douche bouchée)",
+        "text": "Le débouchage de douche en cas d'engorgement (douche bouchée) est une opération délicate qui nécessite l'intervention d'un professionnel. ; En effet, une douche bouchée peut causer des désagréments au quotidien et augmenter votre facture d'eau. ; Le plombier doit identifier l'origine du bouchon et le déboucher dans les plus brefs délais.",
+        "infos": ["Le coût du débouchage de douche dépend de l'ampleur de l'engorgement et de la complexité de l'intervention. Le cas \"Débouchage de douche\" comprend les prestations suivantes :",
+        "Les frais de déplacement et de main-d'œuvre",
+        "La recherche du bouchon",
+        "Le débouchage de la douche",
+        "Le nettoyage du chantier"
+        ],
+        "couts": [
+            "Entre 150€ et 300€ TTC",
+            "Gros matériel",
+            "Déplacement",
+            "Petites fournitures",
+            "Nettoyage du chantier",
+            "Main d'oeuvre"
+        ]
     },
     {
-        "id": "1252",
-      "path": "Plomberie ; Douche ; Engorgement de baignoire (bouchée) ;"
+        "id": "125_2",
+      "path": "Plomberie ; Douche ; Engorgement de baignoire (bouchée) ;",
+      "title": "Débouchage de baignoire en cas d'engorgement (baignoire bouchée)",
+      "text": "Le débouchage de baignoire en cas d'engorgement (baignoire bouchée) est une opération délicate qui nécessite l'intervention d'un professionnel. ; En effet, une baignoire bouchée peut causer des désagréments au quotidien et augmenter votre facture d'eau. ; Le plombier doit identifier l'origine du bouchon et le déboucher dans les plus brefs délais.",
+      "infos": ["Le coût du débouchage de baignoire dépend de l'ampleur de l'engorgement et de la complexité de l'intervention. Le cas \"Débouchage de baignoire\" comprend les prestations suivantes :",
+      "Les frais de déplacement et de main-d'œuvre",
+      "La recherche du bouchon",
+      "Le débouchage de la baignoire",
+      "Le nettoyage du chantier"
+      ],
+      "couts": [
+          "Entre 150€ et 300€ TTC",
+          "Gros matériel",
+          "Déplacement",
+          "Petites fournitures",
+          "Nettoyage du chantier",
+          "Main d'oeuvre"
+      ]
     },
     {
-      "id": "125151",
-      "path": "Plomberie ; Douche ; Fuite de douche ; Du robinet ;"
+      "id": "12515_1",
+      "path": "Plomberie ; Douche ; Fuite de douche ; Du robinet ;",
+      "title": "Réparation d'une fuite du robinet de douche",
+      "text": "La réparation d'une fuite du robinet de douche est une opération délicate qui nécessite l'intervention d'un professionnel. ; En effet, une fuite d'eau peut causer des dégâts importants dans votre logement et augmenter votre facture d'eau. ; Le plombier doit identifier l'origine de la fuite et la réparer dans les plus brefs délais.",
+      "infos": ["Le coût de la réparation d'une fuite du robinet de douche dépend de l'ampleur de la fuite et de la complexité de l'intervention. Le cas \"Réparation d'une fuite du robinet de douche\" comprend les prestations suivantes :",
+      "Les frais de déplacement et de main-d'œuvre",
+      "La recherche de la fuite",
+      "La réparation de la fuite",
+      "Le nettoyage du chantier"
+      ],
+      "couts": [
+          "Entre 150€ et 300€ TTC",
+          "Gros matériel",
+          "Déplacement",
+          "Petites fournitures",
+          "Nettoyage du chantier",
+          "Main d'oeuvre"
+      ]
     },
     {
-      "id": "125152",
-      "path": "Plomberie ; Douche ; Fuite de douche ; Du tuyau d’évacuation (sous la douche) ;"
+      "id": "12515_2",
+      "path": "Plomberie ; Douche ; Fuite de douche ; Du tuyau d’évacuation (sous la douche) ;",
+      "title": "Réparation d'une fuite du tuyau d'évacuation de douche",
+      "text": "La réparation d'une fuite du tuyau d'évacuation de douche est une opération délicate qui nécessite l'intervention d'un professionnel. ; En effet, une fuite d'eau peut causer des dégâts importants dans votre logement et augmenter votre facture d'eau. ; Le plombier doit identifier l'origine de la fuite et la réparer dans les plus brefs délais.",
+      "infos": ["Le coût de la réparation d'une fuite du tuyau d'évacuation de douche dépend de l'ampleur de la fuite et de la complexité de l'intervention. Le cas \"Réparation d'une fuite du tuyau d'évacuation de douche\" comprend les prestations suivantes :",
+      "Les frais de déplacement et de main-d'œuvre",
+      "La recherche de la fuite",
+      "La réparation de la fuite",
+      "Le nettoyage du chantier"
+      ],
+      "couts": [
+          "Entre 150€ et 300€ TTC",
+          "Gros matériel",
+          "Déplacement",
+          "Petites fournitures",
+          "Nettoyage du chantier",
+          "Main d'oeuvre"
+      ]
     },
     {
-      "id": "125153",
-      "path": "Plomberie ; Douche ; Fuite de douche ; Inconnu ;"
+      "id": "12515_3",
+      "path": "Plomberie ; Douche ; Fuite de douche ; Inconnu ;",
+      "title": "Réparation d'une fuite de douche",
+      "text": "La réparation d'une fuite de douche est une opération délicate qui nécessite l'intervention d'un professionnel. ; En effet, une fuite d'eau peut causer des dégâts importants dans votre logement et augmenter votre facture d'eau. ; Le plombier doit identifier l'origine de la fuite et la réparer dans les plus brefs délais.",
+      "infos": ["Le coût de la réparation d'une fuite de douche dépend de l'ampleur de la fuite et de la complexité de l'intervention. Le cas \"Réparation d'une fuite de douche\" comprend les prestations suivantes :",
+      "Les frais de déplacement et de main-d'œuvre",
+      "La recherche de la fuite",
+      "La réparation de la fuite",
+      "Le nettoyage du chantier"
+      ],
+      "couts": [
+          "Entre 150€ et 300€ TTC",
+          "Gros matériel",
+          "Déplacement",
+          "Petites fournitures",
+          "Nettoyage du chantier",
+          "Main d'oeuvre"
+      ]
     },
     {
-      "id": "125161",
-      "path": "Plomberie ; Douche ; Fuite de baignoire ; Du robinet ;"
+      "id": "12516_1",
+      "path": "Plomberie ; Douche ; Fuite de baignoire ; Du robinet ;",
+      "title": "Réparation d'une fuite du robinet de baignoire",
+      "text": "La réparation d'une fuite du robinet de baignoire est une opération délicate qui nécessite l'intervention d'un professionnel. ; En effet, une fuite d'eau peut causer des dégâts importants dans votre logement et augmenter votre facture d'eau. ; Le plombier doit identifier l'origine de la fuite et la réparer dans les plus brefs délais.",
+      "infos": ["Le coût de la réparation d'une fuite du robinet de baignoire dépend de l'ampleur de la fuite et de la complexité de l'intervention. Le cas \"Réparation d'une fuite du robinet de baignoire\" comprend les prestations suivantes :",
+      "Les frais de déplacement et de main-d'œuvre",
+      "La recherche de la fuite",
+      "La réparation de la fuite",
+      "Le nettoyage du chantier"
+      ],
+      "couts": [
+          "Entre 150€ et 300€ TTC",
+          "Gros matériel",
+          "Déplacement",
+          "Petites fournitures",
+          "Nettoyage du chantier",
+          "Main d'oeuvre"
+      ]
     },
     {
-      "id": "125162",
-      "path": "Plomberie ; Douche ; Fuite de baignoire ; Du tuyau d’évacuation ;"
+      "id": "12516_2",
+      "path": "Plomberie ; Douche ; Fuite de baignoire ; Du tuyau d’évacuation ;",
+      "title": "Réparation d'une fuite du tuyau d'évacuation de baignoire",
+      "text": "La réparation d'une fuite du tuyau d'évacuation de baignoire est une opération délicate qui nécessite l'intervention d'un professionnel. ; En effet, une fuite d'eau peut causer des dégâts importants dans votre logement et augmenter votre facture d'eau. ; Le plombier doit identifier l'origine de la fuite et la réparer dans les plus brefs délais.",
+      "infos": ["Le coût de la réparation d'une fuite du tuyau d'évacuation de baignoire dépend de l'ampleur de la fuite et de la complexité de l'intervention. Le cas \"Réparation d'une fuite du tuyau d'évacuation de baignoire\" comprend les prestations suivantes :",
+      "Les frais de déplacement et de main-d'œuvre",
+      "La recherche de la fuite",
+      "La réparation de la fuite",
+      "Le nettoyage du chantier"
+      ],
+      "couts": [
+          "Entre 150€ et 300€ TTC",
+          "Gros matériel",
+          "Déplacement",
+          "Petites fournitures",
+          "Nettoyage du chantier",
+          "Main d'oeuvre"
+      ]
     },
     {
-      "id": "125163",
-      "path": "Plomberie ; Douche ; Fuite de baignoire ; Inconnu ;"
+      "id": "12516_3",
+      "path": "Plomberie ; Douche ; Fuite de baignoire ; Inconnu ;",
+      "title": "Réparation d'une fuite de baignoire",
+      "text": "La réparation d'une fuite de baignoire est une opération délicate qui nécessite l'intervention d'un professionnel. ; En effet, une fuite d'eau peut causer des dégâts importants dans votre logement et augmenter votre facture d'eau. ; Le plombier doit identifier l'origine de la fuite et la réparer dans les plus brefs délais.",
+      "infos": ["Le coût de la réparation d'une fuite de baignoire dépend de l'ampleur de la fuite et de la complexité de l'intervention. Le cas \"Réparation d'une fuite de baignoire\" comprend les prestations suivantes :",
+      "Les frais de déplacement et de main-d'œuvre",
+      "La recherche de la fuite",
+      "La réparation de la fuite",
+      "Le nettoyage du chantier"
+      ],
+      "couts": [
+          "Entre 150€ et 300€ TTC",
+          "Gros matériel",
+          "Déplacement",
+          "Petites fournitures",
+          "Nettoyage du chantier",
+          "Main d'oeuvre"
+      ]
     },
     {
-      "id": "125171",
-      "path": "Plomberie ; Douche ; Autre ; Installation de bac à douche ;"
+      "id": "12517_1",
+      "path": "Plomberie ; Douche ; Autre ; Installation de bac à douche ;",
+      "title": "Installation de bac à douche",
+      "text": "L'installation de bac à douche est une opération délicate qui nécessite l'intervention d'un professionnel. ; En effet, un bac à douche mal installé peut causer des fuites d'eau et des dégâts importants dans votre logement. ; Le plombier doit installer le bac à douche dans les règles de l'art pour assurer son bon fonctionnement.",
+      "infos": ["Le coût de l'installation de bac à douche dépend de la complexité de l'intervention et du modèle de bac à douche choisi. Le cas \"Installation de bac à douche\" comprend les prestations suivantes :",
+      "Les frais de déplacement et de main-d'œuvre",
+      "La fourniture du nouveau bac à douche",
+      "L'installation du bac à douche",
+      "Le nettoyage du chantier"
+      ],
+      "couts": [
+          "Entre 300€ et 500€ TTC",
+          "Gros matériel",
+          "Déplacement",
+          "Petites fournitures",
+          "Nettoyage du chantier",
+          "Main d'oeuvre"
+      ]
     },
     {
-      "id": "125172",
-      "path": "Plomberie ; Douche ; Autre ; Installation de baignoire ;"
+      "id": "12517_2",
+      "path": "Plomberie ; Douche ; Autre ; Installation de baignoire ;",
+      "title": "Installation de baignoire",
+      "text": "L'installation de baignoire est une opération délicate qui nécessite l'intervention d'un professionnel. ; En effet, une baignoire mal installée peut causer des fuites d'eau et des dégâts importants dans votre logement. ; Le plombier doit installer la baignoire dans les règles de l'art pour assurer son bon fonctionnement.",
+      "infos": ["Le coût de l'installation de baignoire dépend de la complexité de l'intervention et du modèle de baignoire choisi. Le cas \"Installation de baignoire\" comprend les prestations suivantes :",
+      "Les frais de déplacement et de main-d'œuvre",
+      "La fourniture de la nouvelle baignoire",
+      "L'installation de la baignoire",
+      "Le nettoyage du chantier"
+      ],
+      "couts": [
+          "Entre 300€ et 500€ TTC",
+          "Gros matériel",
+          "Déplacement",
+          "Petites fournitures",
+          "Nettoyage du chantier",
+          "Main d'oeuvre"
+      ]
     },
     {
-      "id": "125173",
-      "path": "Plomberie ; Douche ; Autre ; Autre problème avec la douche ;"
+      "id": "12517_3",
+      "path": "Plomberie ; Douche ; Autre ; Autre problème avec la douche ;",
+      "title": "Autre problème avec la douche",
+      "text": "Les problèmes de douche peuvent être variés et nécessiter l'intervention d'un professionnel. ; En effet, une douche défectueuse peut causer des désagréments au quotidien et augmenter votre facture d'eau. ; Le plombier doit identifier l'origine du problème et le résoudre dans les plus brefs délais.",
+      "infos": ["Le coût de l'intervention dépend de la nature du problème et de la complexité de l'intervention. Le cas \"Autre problème avec la douche\" comprend les prestations suivantes :",
+      "Les frais de déplacement et de main-d'œuvre",
+      "La recherche de la panne",
+      "La réparation de la douche",
+      "Le nettoyage du chantier"
+      ],
+      "couts": [
+          "Entre 150€ et 300€ TTC",
+          "Gros matériel",
+          "Déplacement",
+          "Petites fournitures",
+          "Nettoyage du chantier",
+          "Main d'oeuvre"
+      ]
     },
     {
-      "id": "125174",
-      "path": "Plomberie ; Douche ; Autre ; Autre problème avec la baignoire ;"
+      "id": "12517_4",
+      "path": "Plomberie ; Douche ; Autre ; Autre problème avec la baignoire ;",
+      "title": "Autre problème avec la baignoire",
+      "text": "Les problèmes de baignoire peuvent être variés et nécessiter l'intervention d'un professionnel. ; En effet, une baignoire défectueuse peut causer des désagréments au quotidien et augmenter votre facture d'eau. ; Le plombier doit identifier l'origine du problème et le résoudre dans les plus brefs délais.",
+      "infos": ["Le coût de l'intervention dépend de la nature du problème et de la complexité de l'intervention. Le cas \"Autre problème avec la baignoire\" comprend les prestations suivantes :",
+      "Les frais de déplacement et de main-d'œuvre",
+      "La recherche de la panne",
+      "La réparation de la baignoire",
+      "Le nettoyage du chantier"
+      ],
+      "couts": [
+          "Entre 150€ et 300€ TTC",
+          "Gros matériel",
+          "Déplacement",
+          "Petites fournitures",
+          "Nettoyage du chantier",
+          "Main d'oeuvre"
+      ]
     },
     {
-      "id": "125175",
-      "path": "Plomberie ; Douche ; Autre ; Réfection des joints de la douche / baignoire ;"
+      "id": "12517_5",
+      "path": "Plomberie ; Douche ; Autre ; Réfection des joints de la douche / baignoire ;",
+      "title": "Réfection des joints de la douche ou baignoire",
+      "text": "La réfection des joints de la douche ou baignoire est une opération délicate qui nécessite l'intervention d'un professionnel. ; En effet, des joints défectueux peuvent causer des fuites d'eau et des dégâts importants dans votre logement. ; Le plombier doit refaire les joints de la douche ou baignoire dans les règles de l'art pour assurer leur étanchéité.",
+      "infos": ["Le coût de la réfection des joints de la douche ou baignoire dépend de la complexité de l'intervention et du nombre de joints à refaire. Le cas \"Réfection des joints de la douche ou baignoire\" comprend les prestations suivantes :",
+      "Les frais de déplacement et de main-d'œuvre",
+      "La dépose des anciens joints",
+      "La pose des nouveaux joints",
+      "Le nettoyage du chantier"
+      ],
+      "couts": [
+          "Entre 150€ et 300€ TTC",
+          "Gros matériel",
+          "Déplacement",
+          "Petites fournitures",
+          "Nettoyage du chantier",
+          "Main d'oeuvre"
+      ]
     },
     {
-      "id": "12",
-        "path": "Plomberie ; Colonne générale d'immeuble ;"
+      "id": "12_4",
+        "path": "Plomberie ; Colonne générale d'immeuble ;",
+        "title": "Débouchage de colonne générale d'immeuble",
+        "text": "Le débouchage de colonne générale d'immeuble est une opération délicate qui nécessite l'intervention d'un professionnel. ; En effet, une colonne générale d'immeuble bouchée peut causer des désagréments aux habitants et augmenter les risques d'inondation. ; Le plombier doit identifier l'origine du bouchon et le déboucher dans les plus brefs délais.",
+        "infos": ["Le coût du débouchage de colonne générale d'immeuble dépend de l'ampleur de l'engorgement et de la complexité de l'intervention. Le cas \"Débouchage de colonne générale d'immeuble\" comprend les prestations suivantes :",
+        "Les frais de déplacement et de main-d'œuvre",
+        "La recherche du bouchon",
+        "Le débouchage de la colonne générale d'immeuble",
+        "Le nettoyage du chantier"
+        ],
+        "couts": [
+            "Entre 300€ et 500€ TTC",
+            "Gros matériel",
+            "Déplacement",
+            "Petites fournitures",
+            "Nettoyage du chantier",
+            "Main d'oeuvre"
+        ]
     },
     {
-      "id": "1261",
-      "path": "Plomberie ; Tuyauterie ; D'un tuyau d’évacuation (tuyau PVC) ;"
+      "id": "126_1",
+      "path": "Plomberie ; Tuyauterie ; D'un tuyau d’évacuation (tuyau PVC) ;",
+      "title": "Réparation d'une fuite d'un tuyau d'évacuation (tuyau PVC)",
+      "text": "La réparation d'une fuite d'un tuyau d'évacuation (tuyau PVC) est une opération délicate qui nécessite l'intervention d'un professionnel. ; En effet, une fuite d'eau peut causer des dégâts importants dans votre logement et augmenter votre facture d'eau. ; Le plombier doit identifier l'origine de la fuite et la réparer dans les plus brefs délais.",
+      "infos": ["Le coût de la réparation d'une fuite d'un tuyau d'évacuation (tuyau PVC) dépend de l'ampleur de la fuite et de la complexité de l'intervention. Le cas \"Réparation d'une fuite d'un tuyau d'évacuation (tuyau PVC)\" comprend les prestations suivantes :",
+      "Les frais de déplacement et de main-d'œuvre",
+      "La recherche de la fuite",
+      "La réparation de la fuite",
+      "Le nettoyage du chantier"
+      ],
+      "couts": [
+          "Entre 150€ et 300€ TTC",
+          "Gros matériel",
+          "Déplacement",
+          "Petites fournitures",
+          "Nettoyage du chantier",
+          "Main d'oeuvre"
+      ]
     },
     {
-      "id": "1262",
-      "path": "Plomberie ; Tuyauterie ; De la vanne d'entrée ;"
+      "id": "126_2",
+      "path": "Plomberie ; Tuyauterie ; De la vanne d'entrée ;",
+      "title": "Réparation d'une fuite de la vanne d'entrée",
+      "text": "La réparation d'une fuite de la vanne d'entrée est une opération délicate qui nécessite l'intervention d'un professionnel. ; En effet, une fuite d'eau peut causer des dégâts importants dans votre logement et augmenter votre facture d'eau. ; Le plombier doit identifier l'origine de la fuite et la réparer dans les plus brefs délais.",
+      "infos": ["Le coût de la réparation d'une fuite de la vanne d'entrée dépend de l'ampleur de la fuite et de la complexité de l'intervention. Le cas \"Réparation d'une fuite de la vanne d'entrée\" comprend les prestations suivantes :",
+      "Les frais de déplacement et de main-d'œuvre",
+      "La recherche de la fuite",
+      "La réparation de la fuite",
+      "Le nettoyage du chantier"
+      ],
+      "couts": [
+          "Entre 150€ et 300€ TTC",
+          "Gros matériel",
+          "Déplacement",
+          "Petites fournitures",
+          "Nettoyage du chantier",
+          "Main d'oeuvre"
+      ]
     },
     {
-      "id": "1263",
-      "path": "Plomberie ; Tuyauterie ; D'un autre tuyau ;"
+      "id": "126_3",
+      "path": "Plomberie ; Tuyauterie ; D'un autre tuyau ;",
+      "title": "Réparation d'une fuite d'un autre tuyau",
+      "text": "La réparation d'une fuite d'un autre tuyau est une opération délicate qui nécessite l'intervention d'un professionnel. ; En effet, une fuite d'eau peut causer des dégâts importants dans votre logement et augmenter votre facture d'eau. ; Le plombier doit identifier l'origine de la fuite et la réparer dans les plus brefs délais.",
+      "infos": ["Le coût de la réparation d'une fuite d'un autre tuyau dépend de l'ampleur de la fuite et de la complexité de l'intervention. Le cas \"Réparation d'une fuite d'un autre tuyau\" comprend les prestations suivantes :",
+      "Les frais de déplacement et de main-d'œuvre",
+      "La recherche de la fuite",
+      "La réparation de la fuite",
+      "Le nettoyage du chantier"
+      ],
+      "couts": [
+          "Entre 150€ et 300€ TTC",
+          "Gros matériel",
+          "Déplacement",
+          "Petites fournitures",
+          "Nettoyage du chantier",
+          "Main d'oeuvre"
+      ]
     },
     { 
-      "id": "126181",
-      "path": "Plomberie ; Tuyauterie ; Je ne vois pas (recherche d'une fuite) ; Recherche de fuite simple ;"
+      "id": "12618_1",
+      "path": "Plomberie ; Tuyauterie ; Je ne vois pas (recherche d'une fuite) ; Recherche de fuite simple ;",
+      "title": "Recherche de fuite simple",
+      "text": "La recherche de fuite simple est une opération délicate qui nécessite l'intervention d'un professionnel. ; En effet, une fuite d'eau peut causer des dégâts importants dans votre logement et augmenter votre facture d'eau. ; Le plombier doit identifier l'origine de la fuite et la réparer dans les plus brefs délais.",
+      "infos": ["Le coût de la recherche de fuite simple dépend de l'ampleur de la fuite et de la complexité de l'intervention. Le cas \"Recherche de fuite simple\" comprend les prestations suivantes :",
+      "Les frais de déplacement et de main-d'œuvre",
+      "La recherche de la fuite",
+      "La réparation de la fuite",
+      "Le nettoyage du chantier"
+      ],
+      "couts": [
+          "Entre 150€ et 300€ TTC",
+          "Gros matériel",
+          "Déplacement",
+          "Petites fournitures",
+          "Nettoyage du chantier",
+          "Main d'oeuvre"
+      ]
     },
     { 
-      "id": "126182",
-      "path": "Plomberie ; Tuyauterie ; Je ne vois pas (recherche d'une fuite) ; Recherche de fuite encastrée ;"
+      "id": "12618_2",
+      "path": "Plomberie ; Tuyauterie ; Je ne vois pas (recherche d'une fuite) ; Recherche de fuite encastrée ;",
+      "title": "Recherche de fuite encastrée",
+      "text": "La recherche de fuite encastrée est une opération délicate qui nécessite l'intervention d'un professionnel. ; En effet, une fuite d'eau peut causer des dégâts importants dans votre logement et augmenter votre facture d'eau. ; Le plombier doit identifier l'origine de la fuite et la réparer dans les plus brefs délais.",
+      "infos": ["Le coût de la recherche de fuite encastrée dépend de l'ampleur de la fuite et de la complexité de l'intervention. Le cas \"Recherche de fuite encastrée\" comprend les prestations suivantes :",
+      "Les frais de déplacement et de main-d'œuvre",
+      "La recherche de la fuite",
+      "La réparation de la fuite",
+      "Le nettoyage du chantier"
+      ],
+      "couts": [
+          "Entre 150€ et 300€ TTC",
+          "Gros matériel",
+          "Déplacement",
+          "Petites fournitures",
+          "Nettoyage du chantier",
+          "Main d'oeuvre"
+      ]
     },
     {
-        "id": "127191",
-        "path": "Plomberie ; Chaudière ; Réparation d'une panne ; Au chauffage ;"
+        "id": "12719_1",
+        "path": "Plomberie ; Chaudière ; Réparation d'une panne ; Au chauffage ;",
+        "title": "Réparation d'une panne de chaudière au chauffage",
+        "text": "La réparation d'une panne de chaudière au chauffage est une opération délicate qui nécessite l'intervention d'un professionnel. ; En effet, une chaudière défectueuse peut causer des désagréments au quotidien et augmenter votre facture d'énergie. ; Le plombier doit identifier l'origine de la panne et la réparer dans les plus brefs délais.",
+        "infos": ["Le coût de la réparation d'une panne de chaudière au chauffage dépend de la nature de la panne et de la complexité de l'intervention. Le cas \"Réparation d'une panne de chaudière au chauffage\" comprend les prestations suivantes :",
+        "Les frais de déplacement et de main-d'œuvre",
+        "La recherche de la panne",
+        "La réparation de la panne",
+        "Le nettoyage du chantier"
+        ],
+        "couts": [
+            "Entre 300€ et 500€ TTC",
+            "Gros matériel",
+            "Déplacement",
+            "Petites fournitures",
+            "Nettoyage du chantier",
+            "Main d'oeuvre"
+        ]
     },
     {
-        "id": "127192",
-        "path": "Plomberie ; Chaudière ; Réparation d'une panne ; A l'eau chaude ;"
+        "id": "12719_2",
+        "path": "Plomberie ; Chaudière ; Réparation d'une panne ; A l'eau chaude ;",
+        "title": "Réparation d'une panne de chaudière à l'eau chaude",
+        "text": "La réparation d'une panne de chaudière à l'eau chaude est une opération délicate qui nécessite l'intervention d'un professionnel. ; En effet, une chaudière défectueuse peut causer des désagréments au quotidien et augmenter votre facture d'énergie. ; Le plombier doit identifier l'origine de la panne et la réparer dans les plus brefs délais.",
+        "infos": ["Le coût de la réparation d'une panne de chaudière à l'eau chaude dépend de la nature de la panne et de la complexité de l'intervention. Le cas \"Réparation d'une panne de chaudière à l'eau chaude\" comprend les prestations suivantes :",
+        "Les frais de déplacement et de main-d'œuvre",
+        "La recherche de la panne",
+        "La réparation de la panne",
+        "Le nettoyage du chantier"
+        ],
+        "couts": [
+            "Entre 300€ et 500€ TTC",
+            "Gros matériel",
+            "Déplacement",
+            "Petites fournitures",
+            "Nettoyage du chantier",
+            "Main d'oeuvre"
+        ]
     },
     {
-        "id": "127193",
-        "path": "Plomberie ; Chaudière ; Réparation d'une panne ; Au chauffage et à l'eau chaude ;"
+        "id": "12719_3",
+        "path": "Plomberie ; Chaudière ; Réparation d'une panne ; Au chauffage et à l'eau chaude ;",
+        "title": "Réparation d'une panne de chaudière au chauffage et à l'eau chaude",
+        "text": "La réparation d'une panne de chaudière au chauffage et à l'eau chaude est une opération délicate qui nécessite l'intervention d'un professionnel. ; En effet, une chaudière défectueuse peut causer des désagréments au quotidien et augmenter votre facture d'énergie. ; Le plombier doit identifier l'origine de la panne et la réparer dans les plus brefs délais.",
+        "infos": ["Le coût de la réparation d'une panne de chaudière au chauffage et à l'eau chaude dépend de la nature de la panne et de la complexité de l'intervention. Le cas \"Réparation d'une panne de chaudière au chauffage et à l'eau chaude\" comprend les prestations suivantes :",
+        "Les frais de déplacement et de main-d'œuvre",
+        "La recherche de la panne",
+        "La réparation de la panne",
+        "Le nettoyage du chantier"
+        ],
+        "couts": [
+            "Entre 300€ et 500€ TTC",
+            "Gros matériel",
+            "Déplacement",
+            "Petites fournitures",
+            "Nettoyage du chantier",
+            "Main d'oeuvre"
+        ]
     },
     {
-        "id": "1272",
-        "path": "Plomberie ; Chaudière ; Souscription d'un contrat d'Entretien ;"
+        "id": "127_2",
+        "path": "Plomberie ; Chaudière ; Souscription d'un contrat d'Entretien ;",
+        "title": "Souscription d'un contrat d'entretien de chaudière",
+        "text": "La souscription d'un contrat d'entretien de chaudière est une opération recommandée pour assurer le bon fonctionnement de votre chaudière. ; En effet, un entretien régulier permet de prévenir les pannes et d'optimiser les performances de votre chaudière. ; Le plombier doit réaliser l'entretien de la chaudière dans les règles de l'art pour garantir sa longévité.",
+        "infos": ["Le coût de la souscription d'un contrat d'entretien de chaudière dépend de la nature de l'entretien et de la complexité de l'intervention. Le cas \"Souscription d'un contrat d'entretien de chaudière\" comprend les prestations suivantes :",
+        "Les frais de déplacement et de main-d'œuvre",
+        "La vérification de l'état de la chaudière",
+        "Le nettoyage de la chaudière",
+        "Le remplacement des pièces défectueuses",
+        "Le nettoyage du chantier"
+        ],
+        "couts": [
+            "Entre 150€ et 300€ TTC",
+            "Gros matériel",
+            "Déplacement",
+            "Petites fournitures",
+            "Nettoyage du chantier",
+            "Main d'oeuvre"
+        ]
     },
     {
-        "id": "1273",
-        "path": "Plomberie ; Chaudière ; Réparation d'une fuite du ballon d'eau chaude ;"
+        "id": "127_3",
+        "path": "Plomberie ; Chaudière ; Réparation d'une fuite du ballon d'eau chaude ;",
+        "title": "Réparation d'une fuite du ballon d'eau chaude",
+        "text": "La réparation d'une fuite du ballon d'eau chaude est une opération délicate qui nécessite l'intervention d'un professionnel. ; En effet, une fuite d'eau peut causer des dégâts importants dans votre logement et augmenter votre facture d'eau. ; Le plombier doit identifier l'origine de la fuite et la réparer dans les plus brefs délais.",
+        "infos": ["Le coût de la réparation d'une fuite du ballon d'eau chaude dépend de l'ampleur de la fuite et de la complexité de l'intervention. Le cas \"Réparation d'une fuite du ballon d'eau chaude\" comprend les prestations suivantes :",
+        "Les frais de déplacement et de main-d'œuvre",
+        "La recherche de la fuite",
+        "La réparation de la fuite",
+        "Le nettoyage du chantier"
+        ],
+        "couts": [
+            "Entre 150€ et 300€ TTC",
+            "Gros matériel",
+            "Déplacement",
+            "Petites fournitures",
+            "Nettoyage du chantier",
+            "Main d'oeuvre"
+        ]
     },
     {
-        "id": "1274",
-        "path": "Plomberie ; Chaudière ; Autre ;"
+        "id": "127_4",
+        "path": "Plomberie ; Chaudière ; Autre ;",
+        "title": "Autre problème avec la chaudière",
+        "text": "Les problèmes de chaudière peuvent être variés et nécessiter l'intervention d'un professionnel. ; En effet, une chaudière défectueuse peut causer des désagréments au quotidien et augmenter votre facture d'énergie. ; Le plombier doit identifier l'origine du problème et le résoudre dans les plus brefs délais.",
+        "infos": ["Le coût de l'intervention dépend de la nature du problème et de la complexité de l'intervention. Le cas \"Autre problème avec la chaudière\" comprend les prestations suivantes :",
+        "Les frais de déplacement et de main-d'œuvre",
+        "La recherche de la panne",
+        "La réparation de la chaudière",
+        "Le nettoyage du chantier"
+        ],
+        "couts": [
+            "Entre 150€ et 300€ TTC",
+            "Gros matériel",
+            "Déplacement",
+            "Petites fournitures",
+            "Nettoyage du chantier",
+            "Main d'oeuvre"
+        ]
     },
     {
-        "id": "127201",
-        "path": "Plomberie ; Chaudière ; Installation ; Chaudière ;"
+        "id": "12720_1",
+        "path": "Plomberie ; Chaudière ; Installation ; Chaudière ;",
+        "title": "Installation de chaudière",
+        "text": "L'installation de chaudière est une opération délicate qui nécessite l'intervention d'un professionnel. ; En effet, une chaudière mal installée peut causer des désagréments au quotidien et augmenter votre facture d'énergie. ; Le plombier doit installer la chaudière dans les règles de l'art pour assurer son bon fonctionnement.",
+        "infos": ["Le coût de l'installation de chaudière dépend de la complexité de l'intervention et du modèle de chaudière choisi. Le cas \"Installation de chaudière\" comprend les prestations suivantes :",
+        "Les frais de déplacement et de main-d'œuvre",
+        "La fourniture de la nouvelle chaudière",
+        "L'installation de la chaudière",
+        "Le nettoyage du chantier"
+        ],
+        "couts": [
+            "Entre 300€ et 500€ TTC",
+            "Gros matériel",
+            "Déplacement",
+            "Petites fournitures",
+            "Nettoyage du chantier",
+            "Main d'oeuvre"
+        ]
     },
     {
-        "id": "127202",
-        "path": "Plomberie ; Chaudière ; Installation ; Chauffe-eau / chauffe-bain ;"
+        "id": "12720_2",
+        "path": "Plomberie ; Chaudière ; Installation ; Chauffe-eau / chauffe-bain ;",
+        "title": "Installation de chauffe-eau / chauffe-bain",
+        "text": "L'installation de chauffe-eau / chauffe-bain est une opération délicate qui nécessite l'intervention d'un professionnel. ; En effet, un chauffe-eau / chauffe-bain mal installé peut causer des désagréments au quotidien et augmenter votre facture d'énergie. ; Le plombier doit installer le chauffe-eau / chauffe-bain dans les règles de l'art pour assurer son bon fonctionnement.",
+        "infos": ["Le coût de l'installation de chauffe-eau / chauffe-bain dépend de la complexité de l'intervention et du modèle de chauffe-eau / chauffe-bain choisi. Le cas \"Installation de chauffe-eau / chauffe-bain\" comprend les prestations suivantes :",
+        "Les frais de déplacement et de main-d'œuvre",
+        "La fourniture du nouveau chauffe-eau / chauffe-bain",
+        "L'installation du chauffe-eau / chauffe-bain",
+        "Le nettoyage du chantier"
+        ],
+        "couts": [
+            "Entre 300€ et 500€ TTC",
+            "Gros matériel",
+            "Déplacement",
+            "Petites fournitures",
+            "Nettoyage du chantier",
+            "Main d'oeuvre"
+        ]
     },
     {
-        "id": "127203",
-        "path": "Plomberie ; Chaudière ; Installation ; Ballon d'eau chaude ;"
+        "id": "12720_3",
+        "path": "Plomberie ; Chaudière ; Installation ; Ballon d'eau chaude ;",
+        "title": "Installation de ballon d'eau chaude",
+        "text": "L'installation de ballon d'eau chaude est une opération délicate qui nécessite l'intervention d'un professionnel. ; En effet, un ballon d'eau chaude mal installé peut causer des désagréments au quotidien et augmenter votre facture d'énergie. ; Le plombier doit installer le ballon d'eau chaude dans les règles de l'art pour assurer son bon fonctionnement.",
+        "infos": ["Le coût de l'installation de ballon d'eau chaude dépend de la complexité de l'intervention et du modèle de ballon d'eau chaude choisi. Le cas \"Installation de ballon d'eau chaude\" comprend les prestations suivantes :",
+        "Les frais de déplacement et de main-d'œuvre",
+        "La fourniture du nouveau ballon d'eau chaude",
+        "L'installation du ballon d'eau chaude",
+        "Le nettoyage du chantier"
+        ],
+        "couts": [
+            "Entre 300€ et 500€ TTC",
+            "Gros matériel",
+            "Déplacement",
+            "Petites fournitures",
+            "Nettoyage du chantier",
+            "Main d'oeuvre"
+        ]
     },
     {
-        "id": "128204",
-        "path": "Plomberie ; Ballon d'eau chaude ; Radiateur électrique / sèche-serviette ;"
+        "id": "12720_4",
+        "path": "Plomberie ; Ballon d'eau chaude ; Radiateur électrique / sèche-serviette ;",
+        "title": "Installation de radiateur électrique / sèche-serviette",
+        "text": "L'installation de radiateur électrique / sèche-serviette est une opération délicate qui nécessite l'intervention d'un professionnel. ; En effet, un radiateur électrique / sèche-serviette mal installé peut causer des désagréments au quotidien et augmenter votre facture d'énergie. ; Le plombier doit installer le radiateur électrique / sèche-serviette dans les règles de l'art pour assurer son bon fonctionnement.",
+        "infos": ["Le coût de l'installation de radiateur électrique / sèche-serviette dépend de la complexité de l'intervention et du modèle de radiateur électrique / sèche-serviette choisi. Le cas \"Installation de radiateur électrique / sèche-serviette\" comprend les prestations suivantes :",
+        "Les frais de déplacement et de main-d'œuvre",
+        "La fourniture du nouveau radiateur électrique / sèche-serviette",
+        "L'installation du radiateur électrique / sèche-serviette",
+        "Le nettoyage du chantier"
+        ],
+        "couts": [
+            "Entre 300€ et 500€ TTC",
+            "Gros matériel",
+            "Déplacement",
+            "Petites fournitures",
+            "Nettoyage du chantier",
+            "Main d'oeuvre"
+        ]
     },
     {
-        "id": "129",
-        "path": "Plomberie ; Tuyau de la machine à laver / du lave-vaisselle ;"
+        "id": "12_7",
+        "path": "Plomberie ; Tuyau de la machine à laver / du lave-vaisselle ;",
+        "title": "Réparation d'une fuite du tuyau de la machine à laver / du lave-vaisselle",
+        "text": "La réparation d'une fuite du tuyau de la machine à laver / du lave-vaisselle est une opération délicate qui nécessite l'intervention d'un professionnel. ; En effet, une fuite d'eau peut causer des dégâts importants dans votre logement et augmenter votre facture d'eau. ; Le plombier doit identifier l'origine de la fuite et la réparer dans les plus brefs délais.",
+        "infos": ["Le coût de la réparation d'une fuite du tuyau de la machine à laver / du lave-vaisselle dépend de l'ampleur de la fuite et de la complexité de l'intervention. Le cas \"Réparation d'une fuite du tuyau de la machine à laver / du lave-vaisselle\" comprend les prestations suivantes :",
+        "Les frais de déplacement et de main-d'œuvre",
+        "La recherche de la fuite",
+        "La réparation de la fuite",
+        "Le nettoyage du chantier"
+        ],
+        "couts": [
+            "Entre 150€ et 300€ TTC",
+            "Gros matériel",
+            "Déplacement",
+            "Petites fournitures",
+            "Nettoyage du chantier",
+            "Main d'oeuvre"
+        ]
     },
     {
-        "id": "1210",
-        "path": "Plomberie ; Autre ;"
+        "id": "12_8",
+        "path": "Plomberie ; Autre ;",
+        "title": "Autre problème de plomberie",
+        "text": "Les problèmes de plomberie peuvent être variés et nécessiter l'intervention d'un professionnel. ; En effet, une installation défectueuse peut causer des désagréments au quotidien et augmenter votre facture d'eau. ; Le plombier doit identifier l'origine du problème et le résoudre dans les plus brefs délais.",
+        "infos": ["Le coût de l'intervention dépend de la nature du problème et de la complexité de l'intervention. Le cas \"Autre problème de plomberie\" comprend les prestations suivantes :",
+        "Les frais de déplacement et de main-d'œuvre",
+        "La recherche de la panne",
+        "La réparation de la plomberie",
+        "Le nettoyage du chantier"
+        ],
+        "couts": [
+            "Entre 150€ et 300€ TTC",
+            "Gros matériel",
+            "Déplacement",
+            "Petites fournitures",
+            "Nettoyage du chantier",
+            "Main d'oeuvre"
+        ]
     }
 ]

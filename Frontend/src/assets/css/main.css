@@ -9,11 +9,12 @@
   --footer-background: #000000;
   --font-main: 'Poppins', sans-serif;
   --font-italic: 'Aller', sans-serif;
+  --text-dark: #443D3C;
 }
 
 body {
   margin: 0;
-  overflow: hidden;
+  overflow-x: hidden;
   font-family: var(--font-main);
   color: var(--text-white);
 }
@@ -33,7 +34,7 @@ h6 {
 }
 
 .footer {
-  position: absolute;
+  position: static;
   bottom: 0;
   width: 100%;
   background-color: var(--footer-background);

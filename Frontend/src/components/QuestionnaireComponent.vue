@@ -4,28 +4,23 @@
       <div class="container">
         <h1>{{ question.text }}</h1>
       </div>
-      <span class="wave"><img src="@/assets/icons/red-wave.svg" alt="Wave"/></span>
+      <span class="wave"><img src="@/assets/icons/red-wave.svg" alt="Wave" /></span>
       <div class="options">
-        <div v-for="(option) in question.options" :key="option._id" class="option-item">
-          <!-- Ajout d'une condition pour cacher l'option supplémentaire si le nombre d'options est impair -->
+        <div v-for="(option, index) in question.options" :key="option.id" class="option-item">
           <button
-            v-bind:style="isOdd && option._id === 'extra-option' ? { display: 'none' } : {}"
-            @click="handleOptionClick(option.nextQuestionId)"
+            v-bind:style="isOdd && option.id === 'extra-option' ? { display: 'none' } : {}"
+            @click="handleOptionClick(option.id, option.nextQuestionId, index + 1)"
           >
             <span class="option-text">{{ option.text }}</span>
             <span class="arrow-icon">
-              <img src="@/assets/icons/arrow.png" alt="Arrow">
+              <img src="@/assets/icons/arrow.png" alt="Arrow" />
             </span>
           </button>
         </div>
         <div class="previous-step-container">
           <button class="previous-step-button" @click="goToPreviousStep">
             <span class="arrow-icon-left">
-              <img
-                src="@/assets/icons/arrow-left.svg"
-                alt="Arrow Left"
-                class="arrow-left"
-              />
+              <img src="@/assets/icons/arrow-left.svg" alt="Arrow Left" class="arrow-left" />
             </span>
             Étape précédente
           </button>
@@ -39,14 +34,16 @@
 </template>
 
 <script>
-import { getQuestionById } from '@/api/questionsService';
-import router from '@/router';
+import { getQuestionById } from "@/api/questionsService";
+import router from "@/router";
 
 export default {
   data() {
     return {
       question: null, // Stocke les données de la question actuelle
       isOdd: false, // Variable pour vérifier si le nombre d'options est impair
+      questionPath: [], // Historique des questions et options sélectionnées
+      strQuestionPath: "", // Chemin de la question sous forme de chaîne
     };
   },
   props: {
@@ -60,8 +57,8 @@ export default {
   },
   methods: {
     /**
-     * Charge une question par son ID et met à jour les données du composant.
-     * @param {string} questionId - ID de la question à charger.
+     * Charge une question par son ID personnalisé et met à jour les données du composant.
+     * @param {string} questionId - ID personnalisé de la question à charger.
      */
     async loadQuestion(questionId) {
       try {
@@ -69,32 +66,61 @@ export default {
         this.isOdd = this.question.options.length % 2 !== 0; // Vérifie si le nombre d'options est impair
         if (this.isOdd) {
           // Ajouter une option vide pour rendre le nombre pair
-          this.question.options.push({ text: "", _id: "extra-option", nextQuestionId: null });
+          this.question.options.push({ text: "", id: "extra-option", nextQuestionId: null });
         }
       } catch (error) {
-        console.error('Erreur lors du chargement de la question :', error);
+        console.error("Erreur lors du chargement de la question :", error);
         this.question = null; // Réinitialiser la question en cas d'erreur
       }
     },
     /**
      * Gestionnaire de clic pour une option de réponse.
-     * @param {string} nextQuestionId - ID de la question suivante.
+     * @param {string} optionId - ID personnalisé de l'option sélectionnée.
+     * @param {string} nextQuestionId - ID personnalisé de la question suivante.
+     * @param {number} optionIndex - Position de l'option dans le tableau (commence à 1).
      */
-    async handleOptionClick(nextQuestionId) {
+    async handleOptionClick(optionId, nextQuestionId, optionIndex) {
+      this.questionPath.push({ questionId: this.question.id, optionId, optionIndex }); // Ajouter l'option choisie au chemin
+      this.strQuestionPath = this.strQuestionPath + `${this.question.id}`; // Ajouter l'option choisie au chemin sous forme de chaîne
+      console.log("Chemin actuel :", this.strQuestionPath);
+      if (!nextQuestionId) {
+        // Si l'ID de la question suivante est null, finaliser le questionnaire
+        await this.fetchResult(); // Récupérer le résultat
+        return;
+      }
       await this.loadQuestion(nextQuestionId); // Charger la question suivante
     },
+    /**
+     * Fonction pour récupérer la réponse API basée sur le chemin parcouru.
+     */
+    async fetchResult() {
+      try {
+        // Construction de l'ID final
+        const lastStep = this.questionPath[this.questionPath.length - 1];
+        let id = `1${this.strQuestionPath}`; // Commence par "1" suivi de l'ID de la dernière question
+        // Ajouter la position de l'option si aucune question suivante
+        if (!this.question.nextQuestionId) {
+          id += `_${lastStep.optionIndex}`;
+        }
+        console.log("ID final :", id);
+        // const response = await getResponseById(id); // Appel à l'API avec l'ID construit
+        // console.log("Réponse obtenue :", response);
 
+        // Rediriger vers /result avec les données récupérées
+        router.push({ path: '/result', query: { resultId: id } });
+      } catch (error) {
+        console.error("Erreur lors de la récupération du résultat :", error);
+      }
+    },
     /**
      * Fonction pour naviguer vers la question précédente.
      */
     async goToPreviousStep() {
-      if (this.question.id == '2') {
-        // Si c'est la première question, rediriger vers la page d'accueil
-        router.push('/');
-      }
-      if (this.question && this.question.previousQuestionId) {
-        // Charger la question précédente en utilisant l'ID de la question précédente
-        await this.loadQuestion(this.question.previousQuestionId);
+      if (this.questionPath.length > 0) {
+        // Retirer la dernière entrée du chemin
+        const lastStep = this.questionPath.pop();
+        this.strQuestionPath = this.strQuestionPath.slice(0, -1); // Retirer la dernière option du chemin sous forme de chaîne
+        await this.loadQuestion(lastStep.questionId); // Charger la question précédente
       } else {
         console.log("Aucune question précédente disponible.");
       }
