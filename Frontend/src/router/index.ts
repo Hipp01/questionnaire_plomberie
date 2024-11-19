@@ -9,6 +9,7 @@ import VitreriePage from '@/views/VitreriePage.vue';
 import ElectromenagerPage from '@/views/ElectromenagerPage.vue';
 import ContactPage from '@/views/ContactPage.vue';
 import NotFound from '@/views/NotFound.vue';
+import ResultPage from '@/views/ResultPage.vue';
 
 const routes = [
   {
@@ -46,6 +47,11 @@ const routes = [
     path: '/electromenager',
     name: 'electromenager',
     component: ElectromenagerPage,
+  },
+  {
+    path: '/result',
+    name: 'result',
+    component: ResultPage,
   },
   {
     path: '/contact',
