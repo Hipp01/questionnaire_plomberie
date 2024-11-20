@@ -2,14 +2,19 @@
   <div class="result-page">
     <!-- Carte de gauche -->
     <div class="left-card">
-      <img :src="'/images/' + result.path.split(';')[1].replace(/ /g, '').replace('/','_').toLowerCase() + '.png'" alt="Image" />
+      <!-- Sécuriser l'accès à result.path -->
+      <img
+        v-if="result.path"
+        :src="'/images/' + (result.path.split(';')[1] || '').replace(/ /g, '').replace('/','_').toLowerCase() + '.png'"
+        alt="Image"
+      />
       <h2>Bon à savoir</h2>
       <p>
-        Vous faites face à un problème {{ result.path.split(';')[1] !== ' Autre ' ? 'de ' + result.path.split(';')[1] : 'autre' }} ?
+        Vous faites face à un problème {{ result.path && result.path.split(';')[1] !== ' Autre ' ? 'de ' + result.path.split(';')[1] : 'autre' }} ?
         Vous vous interrogez sur les raisons de ce blocage et les solutions pour y remédier ?
         Faites appel à un plombier de MesDépanneurs.fr pour une intervention rapide et efficace.
       </p>
-      <p>Informations utiles pour le cas "{{ result.path.split(';')[result.path.split(';').length - 3] }}"</p>
+      <p>Informations utiles pour le cas "{{ result.path && result.path.split(';')[result.path.split(';').length - 3] }}"</p>
       <p>{{ result.infos[0] }}</p>
       <ul>
         <li v-for="(info, index) in result.infos.slice(1)" :key="index + 1">
@@ -140,7 +145,6 @@ export default defineComponent({
   },
 });
 </script>
-
 
 <style scoped>
 .result-page {
