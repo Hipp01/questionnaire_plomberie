@@ -55,14 +55,6 @@ export default defineComponent({
     return {
       // Données constantes pour la carte de droite
       constantCard: {
-        points: [
-          "Entre 150€ et 300€ TTC",
-          "Gros matériel",
-          "Déplacement",
-          "Petites fournitures",
-          "Nettoyage du chantier",
-          "Main-d'œuvre",
-        ],
         buttonText: "Demander une intervention",
         footerText:
           ["Vous êtes recontactés sous 20 minutes après votre passage de commande.",

@@ -10,6 +10,7 @@ import ElectromenagerPage from '@/views/ElectromenagerPage.vue';
 import ContactPage from '@/views/ContactPage.vue';
 import NotFound from '@/views/NotFound.vue';
 import ResultPage from '@/views/ResultPage.vue';
+import InterventionPage from '@/views/InterventionPage.vue';
 
 const routes = [
   {
@@ -57,6 +58,11 @@ const routes = [
     path: '/contact',
     name: 'contact',
     component: ContactPage,
+  },
+  {
+    path: '/intervention',
+    name: 'intervention',
+    component: InterventionPage,
   },
   {
     path: '/:pathMatch(.*)*',

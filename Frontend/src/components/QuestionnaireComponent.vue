@@ -131,7 +131,7 @@ export default {
 
 <style scoped>
 .bg-light {
-  height: 100vh;
+  height: 90vh;
 }
 
 h1 {
