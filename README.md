@@ -73,8 +73,8 @@ npm run start
 
 ### Cela démarrera deux processus parallèles :
 
-- Backend sur le port 5000 (ou un autre port que vous avez défini).
-- Frontend sur le port 3000 (ou un autre port que vous avez configuré dans le fichier .env du frontend).
+- Backend sur le port 5000.
+- Frontend sur le port 5173.
 - L'API et l'application web seront maintenant en ligne et accessibles dans votre navigateur.
 
 ### Vérification
