@@ -165,6 +165,8 @@ import { defineComponent } from 'vue';
 import { getResponseById } from '@/api/reponsesService';
 import router from '@/router';
 import '@/assets/css/intervention.css';
+import emailjs from 'emailjs-com';
+
 
 export default defineComponent({
   data() {
@@ -252,6 +254,7 @@ export default defineComponent({
         console.error("Erreur lors de la récupération des données :", error);
       }
     },
+
     /**
      * Valide un champ spécifique en fonction de son type et met à jour son état de validation.
      * @param field - Le champ à valider, correspondant à une clé dans `validationState`.
@@ -291,6 +294,7 @@ export default defineComponent({
         (errorElement as HTMLElement).style.display = isValid ? 'none' : 'block'; // Montre ou cache l'élément
       }
     },
+
     /**
      * Renvoie une classe CSS en fonction de l'état de validation d'un champ spécifique.
      * @param field - Le champ à valider, correspondant à une clé dans `validationState`.
@@ -306,6 +310,7 @@ export default defineComponent({
         ? 'valid'
         : 'invalid';
     },
+
     /**
      * Modifie le contenu textuel de l'élément HTML avec l'ID 'num-tel' pour afficher un numéro de téléphone spécifique.
      */
@@ -315,16 +320,25 @@ export default defineComponent({
         numTelElement.textContent = '09 74 73 54 73';
       }
     },
+
     /**
      * Redirige l'utilisateur vers la page précédente avec les paramètres de requête actuels.
      */
     goToPreviousStep() {
       router.push({ path: '/result', query: { resultId: this.$route.query.resultId as string } });
     },
+
     /**
-     * Valide le formulaire et gère la redirection si toutes les conditions sont remplies.
+     * Valide le formulaire et gère la redirection ou l'envoi d'email en fonction de la validité des données.
+     * Envoie un mail au dépanneur si le formulaire est valide, sinon affiche un message d'erreur.
      *
-     * @param {Event} event - L'objet événement de la soumission du formulaire.
+     * Cette fonction s'assure que tous les champs du formulaire sont correctement remplis et que les conditions générales ainsi que le droit de rétractation ont été acceptés. Si ces validations sont respectées, elle envoie un email avec les données du formulaire via EmailJS et redirige l'utilisateur vers la page d'accueil.
+     *
+     * Si un ou plusieurs champs sont invalides ou si une condition n'est pas acceptée, un message d'alerte est affiché pour indiquer à l'utilisateur ce qui doit être corrigé avant de pouvoir passer à l'étape suivante.
+     *
+     * @param {Event} event - L'objet événement de la soumission du formulaire. Il est utilisé pour empêcher l'envoi par défaut du formulaire et gérer la logique de validation.
+     *
+     * @throws {Error} Si une erreur se produit lors de l'envoi de l'email via EmailJS, une erreur est capturée et un message d'erreur est affiché à l'utilisateur.
      */
     goToNextStep(event: Event) {
       event.preventDefault();
@@ -356,10 +370,33 @@ export default defineComponent({
         return;
       }
 
-      // Si tout est valide, rediriger
-      console.log('Formulaire valide :', this.formData);
-      alert('Commande passée avec succès ! \n Nous vous redirigeons vers la page d\'accueil');
-      router.push({ path: '/' });
+      const emailParams = {
+        prenom: this.formData.prenom,
+        nom: this.formData.nom,
+        adresse: this.formData.adresse,
+        codePostal: this.formData.codePostal,
+        telephone: this.formData.telephone,
+        email: this.formData.email,
+        modePaiement: surPlace ? 'Sur place' : enLigne ? 'En ligne' : '',
+        serviceAccepte: service ? 'Oui' : 'Non',
+        retractationAcceptee: retractation ? 'Oui' : 'Non',
+      };
+
+      emailjs.send(
+        'service_vvlnr9c',
+        'template_rkfs64i',
+        emailParams,
+        'F1ySnhe-WmvCPZpzx'
+      )
+      .then((response) => {
+        console.log('Email envoyé avec succès', response);
+        alert('Commande passée avec succès ! Nous vous recontacterons dans les plus brefs délais.');
+        router.push({ path: '/' });
+      })
+      .catch((error) => {
+        console.error('Erreur lors de l\'envoi de l\'email', error);
+        alert('Une erreur s\'est produite lors de l\'envoi de votre email.');
+      });
     }
   },
 });
