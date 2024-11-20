@@ -13,6 +13,7 @@
   font-size: 54px;
   font-weight: bold;
   margin-bottom: 10px;
+  color: var(--text-white);
 }
 
 .onboarding-decor {

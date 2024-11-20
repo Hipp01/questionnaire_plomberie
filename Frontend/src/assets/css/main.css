@@ -1,7 +1,7 @@
 :root {
   --background-dark: #443d3c;
   --background-light: #f8f8f8;
-  --background-grey: #f4f4f4;
+  --background-grey: #f2f2f2;
   --primary-color: #ff445f;
   --light-pink: #fff0f1;
   --text-white: #ffffff;
@@ -9,11 +9,12 @@
   --footer-background: #000000;
   --font-main: 'Poppins', sans-serif;
   --font-italic: 'Aller', sans-serif;
+  --text-dark: #443D3C;
 }
 
 body {
   margin: 0;
-  overflow: hidden;
+  overflow-x: hidden;
   font-family: var(--font-main);
   color: var(--text-white);
 }
@@ -33,7 +34,7 @@ h6 {
 }
 
 .footer {
-  position: absolute;
+  position: static;
   bottom: 0;
   width: 100%;
   background-color: var(--footer-background);

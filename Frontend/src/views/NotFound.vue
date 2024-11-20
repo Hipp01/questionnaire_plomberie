@@ -20,6 +20,9 @@ p {
 .not-found {
   text-align: center;
   margin-top: 50px;
+  height: 80vh;
+  padding: 20px;
+  overflow: hidden;
 }
 
 .not-found h1 {

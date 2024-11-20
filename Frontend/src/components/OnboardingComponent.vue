@@ -49,6 +49,7 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 import { useRouter } from 'vue-router';
+import '../assets/css/onboarding.css';
 
 export default defineComponent({
   name: 'OnboardingComponent',
@@ -66,3 +67,6 @@ export default defineComponent({
   },
 });
 </script>
+
+<style scoped>
+</style>

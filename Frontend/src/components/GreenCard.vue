@@ -30,7 +30,7 @@ export default defineComponent({
 .bg-green {
   margin-top: 20px;
   padding-inline: 40px;
-  padding-block: 10px;
+  padding-block: 20px;
   width: 50%;
   background-color: #DEFAE9;
   display: flex;
@@ -55,7 +55,7 @@ img {
 }
 
 p {
-  font-size: 14px;
+  font-size: 15px;
   margin: 0;
 }
 </style>
