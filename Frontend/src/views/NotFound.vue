@@ -23,6 +23,7 @@ p {
   height: 80vh;
   padding: 20px;
   overflow: hidden;
+  background-color: var(--background-light);
 }
 
 .not-found h1 {
@@ -37,7 +38,7 @@ p {
 
 .not-found a {
   font-size: 1.2em;
-  color: #42b983;
+  color: var(--primary-color);
   text-decoration: none;
 }
 </style>

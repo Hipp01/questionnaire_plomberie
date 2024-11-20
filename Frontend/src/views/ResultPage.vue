@@ -87,9 +87,33 @@ export default defineComponent({
     }
   },
   methods: {
+    /**
+     * Redirige l'utilisateur vers la page `/intervention` avec le paramètre de requête `resultId`
+     * extrait de l'URL actuelle.
+     *
+     * Cette méthode utilise Vue Router pour naviguer vers la page `/intervention`, en passant
+     * le `resultId` (identifiant du résultat) présent dans la requête de l'URL courante.
+     *
+     * @returns {void}
+     */
     handleClick() {
       router.push({ path: '/intervention', query: { resultId: this.$route.query.resultId } });
     },
+
+    /**
+     * Récupère les données de réponse associées à un identifiant spécifique via une API
+     * et met à jour les propriétés du composant avec ces données.
+     *
+     * Cette méthode fait une requête asynchrone pour récupérer des informations détaillées
+     * sur une réponse à partir de l'API, en fonction de l'ID de la réponse (`responseId`).
+     *
+     * Si la récupération des données est réussie, les données sont ensuite stockées dans
+     * la propriété `result` du composant, en formatant les valeurs de la réponse obtenue.
+     *
+     * @param {string} responseId - L'identifiant unique de la réponse à récupérer.
+     *
+     * @returns {Promise<void>} - Une promesse qui est résolue une fois les données récupérées, ou rejetée en cas d'erreur.
+     */
     async fetchResponseData(responseId: string) {
       try {
         const response = await getResponseById(responseId);

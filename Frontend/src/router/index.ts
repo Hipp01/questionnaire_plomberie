@@ -7,7 +7,6 @@ import ChauffagePage from '@/views/ChauffagePage.vue';
 import SerrureriePage from '@/views/SerrureriePage.vue';
 import VitreriePage from '@/views/VitreriePage.vue';
 import ElectromenagerPage from '@/views/ElectromenagerPage.vue';
-import ContactPage from '@/views/ContactPage.vue';
 import NotFound from '@/views/NotFound.vue';
 import ResultPage from '@/views/ResultPage.vue';
 import InterventionPage from '@/views/InterventionPage.vue';
@@ -53,11 +52,6 @@ const routes = [
     path: '/result',
     name: 'result',
     component: ResultPage,
-  },
-  {
-    path: '/contact',
-    name: 'contact',
-    component: ContactPage,
   },
   {
     path: '/intervention',
