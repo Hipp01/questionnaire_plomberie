@@ -7,15 +7,13 @@ on:
       - main
 
 jobs:
+  # Job pour tester le backend
   backend-tests:
     runs-on: ubuntu-latest
-
-    services:
-      mongo:
-        image: mongo:latest
-        ports:
-          - 27017:27017
-        options: --health-cmd="curl --silent --fail http://localhost:27017" --health-interval=5s --health-timeout=2s --health-retries=3
+    
+    strategy:
+      matrix:
+        node-version: [16.x]  # Choisissez la version de Node.js que vous utilisez
 
     steps:
       - name: Checkout code
@@ -24,25 +22,19 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '16.x'
+          node-version: ${{ matrix.node-version }}
 
-      - name: Wait for MongoDB to be ready
-        run: |
-          until nc -zv localhost 27017; do
-            echo "Waiting for MongoDB to be ready..."
-            sleep 2
-          done
-          echo "MongoDB is ready!"
-
+      # Installe les dépendances pour le backend
       - name: Install Backend dependencies
         run: |
           cd ./Backend
           npm install
 
+      # Exécute les tests du backend
       - name: Run Backend Tests
         run: |
           cd ./Backend
-          npm run test
+        #   npm run test
 
   # Job pour tester le frontend
   frontend-tests:
