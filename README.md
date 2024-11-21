@@ -125,6 +125,21 @@ cd ./Frontend
 npm run test
 ```
 
+## Fonctionnement des interactions entre l'API et l'application
+
+L'application frontend communique avec l'API pour récupérer les questions et les réponses. Voici comment cela fonctionne :
+
+1. Une fois cliqué sur la première icone de plomberie, l'application frontend envoie une requête GET à l'API pour récupérer les questions correspondantes à ce problème.
+2. L'API renvoie la prochaine question dans un champ "text", les réponses possibles dans un champ "options"
+qui comporte lui même un champ "text" pour le texte de la réponse et un champ "nextQuestionId" pour l'identifiant de la prochaine question, et aussi l'identifiant de la question précédente.
+3. L'utilisateur répond à la question en cliquant sur une des réponses possibles.
+4. L'application frontend envoie une requête GET à l'API pour récupérer la prochaine question en fonction de la réponse de l'utilisateur, etc.
+5. Une fois que l'utilisateur a répondu à toutes les questions (le champ 'nextQuestionId' est 'null'), l'application envoie une requête GET à l'API pour récupérer la réponse finale.
+6. L'API renvoie la réponse finale correspondant aux réponses de l'utilisateur avec tous les champs requis pour optimiser la réponse à l'utilisateur.
+7. L'utilisateur peut ensuite remplir un formulaire de contact pour obtenir une intervention d'un dépanneur.
+8. Une fois ce formulaire rempli, l'application frontend envoie un mail au dépanneur avec les informations du formulaire.
+
+
 ## Aide
 
 Si vous avez des questions ou des problèmes, n'hésitez pas à ouvrir une issue sur le dépôt GitHub du projet.
@@ -140,3 +155,10 @@ Hippolyte Larzul
 
 [hippolyte.larzul@example.com](mailto:hippolyte.larzul@example.com)
 [0767226362](tel:0767226362)
+
+
+## Points à améliorer
+
+- Ajouter du responsive design pour une meilleure expérience utilisateur sur mobile.
+( Par soucis de rapidité et de simplicité, je n'ai pas ajouté de responsive design pour l'instant. )
+- Affiner les modèles de données, ex: calculer les couts en fonction des réponses de l'utilisateur.
