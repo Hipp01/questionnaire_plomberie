@@ -160,10 +160,10 @@ Merci pour votre attention et votre temps.
 
 Hippolyte Larzul
 
-[hippolyte.larzul@egmail.com](mailto:hippolyte.larzul@gmail.com)
+[hippolyte.larzul@gmail.com](mailto:hippolyte.larzul@gmail.com)
 
 
-[0767226362](tel:0767226362)
+[0767226362](telto:0767226362)
 
 
 ## Points à améliorer
