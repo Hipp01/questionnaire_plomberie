@@ -33,7 +33,7 @@ jobs:
       # Exécute les tests du backend
       - name: Run Backend Tests
         run: |
-          cd ./backend
+          cd ./Backend
           npm run test
 
   # Job pour tester le frontend
@@ -56,7 +56,7 @@ jobs:
       # Installe les dépendances pour le frontend
       - name: Install Frontend dependencies
         run: |
-          cd ./frontend
+          cd ./Frontend
           npm install
 
       # Exécute les tests du frontend
