@@ -160,7 +160,9 @@ Merci pour votre attention et votre temps.
 
 Hippolyte Larzul
 
-[hippolyte.larzul@example.com](mailto:hippolyte.larzul@example.com)
+[hippolyte.larzul@egmail.com](mailto:hippolyte.larzul@gmail.com)
+
+
 [0767226362](tel:0767226362)
 
 
