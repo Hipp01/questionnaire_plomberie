@@ -1,0 +1,66 @@
+name: CI - Run Tests Before Merge
+
+# Le workflow se déclenche lors de l'ouverture ou de la mise à jour d'une PR vers la branche main
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  # Job pour tester le backend
+  backend-tests:
+    runs-on: ubuntu-latest
+    
+    strategy:
+      matrix:
+        node-version: [16.x]  # Choisissez la version de Node.js que vous utilisez
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      # Installe les dépendances pour le backend
+      - name: Install Backend dependencies
+        run: |
+          cd ./Backend
+          npm install
+
+      # Exécute les tests du backend
+      - name: Run Backend Tests
+        run: |
+          cd ./backend
+          npm run test
+
+  # Job pour tester le frontend
+  frontend-tests:
+    runs-on: ubuntu-latest
+    
+    strategy:
+      matrix:
+        node-version: [16.x]  # Choisissez la version de Node.js que vous utilisez
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      # Installe les dépendances pour le frontend
+      - name: Install Frontend dependencies
+        run: |
+          cd ./frontend
+          npm install
+
+      # Exécute les tests du frontend
+      - name: Run Frontend Tests
+        run: |
+          cd ./Frontend
+          npm run test
